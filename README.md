@@ -50,16 +50,14 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 ### Week 1-2: Ruby/オブジェクト指向
 
-期間：4/10(月) - 4/23(日)
-締切：4/23(日)
-最終締切：5/7(日)
+期間：4/10(月) - 4/23(日), 締切：4/23(日), 最終締切：5/7(日)
 
 1. Skill Doc を読む
-   1. [実装力][Level1] [コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
-   2. [個別技術] [Ruby](skilldoc/technologies/RUBY.md)
+   1. [[実装力][Level1] コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
+   2. [[個別技術] Ruby](skilldoc/technologies/RUBY.md)
 2. QUEST を解く
-   1. [実装力][Level1] [コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
-   2. [Ruby][Level1] [変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
+   1. [[実装力][Level1] コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
+   2. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
 3. 提出 QUEST を提出する
    1. [ポーカー]()
 4. ブログ記事を投稿する
