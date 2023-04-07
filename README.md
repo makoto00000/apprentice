@@ -13,9 +13,9 @@
 
 本カリキュラムを通じて「フルサイクルエンジニア」としてのスキルを身につけることを目指します。具体的には「課題に対して、要件定義から設計・実装・運用までの一連のサイクルを行い、課題そのものを自ら解決でき」、結果として「事業をドライブすることができる」エンジニアを目指します。
 
-そのための学習ロードマップが [Skill Doc](skilldoc/README.md)  です。Skill Doc の内容を理解することで、フルサイクルエンジニアとして必要なスキルが「わかった」状態になります。
+そのための学習ロードマップが [Skill Doc](skilldoc)  です。Skill Doc の内容を理解することで、フルサイクルエンジニアとして必要なスキルが「わかった」状態になります。
 
-Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.md) です。QUEST で演習を行い、「わかった」を「できる」にします。QUEST を自力で解くのが何よりも重要です。自力でできるようになるまで、何度も繰り返し解きましょう。
+Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です。QUEST で演習を行い、「わかった」を「できる」にします。QUEST を自力で解くのが何よりも重要です。自力でできるようになるまで、何度も繰り返し解きましょう。
 
 ## 全体スケジュール
 
@@ -29,14 +29,13 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.
 2週間ごとに以下の内容を行います。
 
 1. QUEST を解く
-  a. Skill Doc を読む
-  b. QUEST を手元で解く
-  c. 提出 QUEST を解き、GitHub のご自身のリポジトリ、Gist もしくはその他ドキュメントツールにアップする(本リポジトリにはプッシュしない)
-  d. [1期生シート]()にアップした URL を記載する(URL は公開設定になっていることを確認する)
-
+   1. Skill Doc を読む
+   2. QUEST を手元で解く
+   3. 提出 QUEST を解き、GitHub のご自身のリポジトリ、Gist もしくはその他ドキュメントツールにアップする(本リポジトリにはプッシュしない)
+   4. [1期生シート]()にアップした URL を記載する(URL は公開設定になっていることを確認する)
 2. 技術ブログ記事を投稿する
-  a. 学んだことを技術ブログ記事として1本以上書き、Qiita や Zenn、ブログサイト等に投稿する
-  b. [1期生シート]()にブログ記事の URL を記載する(複数ある場合は1つでOK)
+   1. 学んだことを技術ブログ記事として1本以上書き、Qiita や Zenn、ブログサイト等に投稿する
+   2. [1期生シート]()にブログ記事の URL を記載する(複数ある場合は1つでOK)
 
 余裕がある場合は次の内容にもトライしましょう。技術力が付き、企業からの評価も俄然良くなります。
 
@@ -56,19 +55,13 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.
 最終締切：5/7(日)
 
 1. Skill Doc を読む
-
-- [実装力][Level1] [コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
-- [個別技術] [Ruby](skilldoc/technologies/RUBY.md)
-
-1. QUEST を解く
-
-- [実装力][Level1] [コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
-- [Ruby][Level1] [変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
-
-1. 提出 QUEST を提出する
-
-- [ポーカー]()
-
+   1. [実装力][Level1] [コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
+   2. [個別技術] [Ruby](skilldoc/technologies/RUBY.md)
+2. QUEST を解く
+   1. [実装力][Level1] [コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
+   2. [Ruby][Level1] [変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
+3. 提出 QUEST を提出する
+   1. [ポーカー]()
 4. ブログ記事を投稿する
 
 ### Week 3-4: Linux/Git,GitHub
