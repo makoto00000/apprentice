@@ -45,9 +45,11 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.
 - オリジナルサービスの作成を進める
 - オリジナルサービスにモダンな技術を取り入れる
 
+各分野の推薦教材は[推薦教材一覧](RESOURCES.md)にまとめてありますのでご参照ください。
+
 ## カリキュラム
 
-### Week 1-2: プログラミング言語
+### Week 1-2: Ruby/オブジェクト指向
 
 期間：4/10(月) - 4/23(日)
 締切：4/23(日)
@@ -55,11 +57,13 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.
 
 1. Skill Doc を読む
 
+- [実装力][Level1] [コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
 - [学習力][レベル1] [継続的に学べるか]()
 - [個別技術] [プログラミング言語]()
 
 2. QUEST を解く
 
+- [実装力][Level1] [コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
 - [学習力][レベル1] [継続的に学べるか]()
 - [個別技術] [プログラミング言語]()
 
@@ -81,7 +85,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.
 
 期間：5/22(月) - 6/4(日)
 
-### Week 9-10: Webフレームワーク
+### Week 9-10: Rails
 
 期間：6/5(月)- 6/18(日)
 

@@ -9,6 +9,7 @@
 - やりきる力
 - 素直さ
 - ロジカルシンキング
+- 実験思考
 
 ## ヒューマンスキル
 
@@ -17,7 +18,7 @@
 
 ## テクニカルスキル
 
-- 実装
+- [実装力](technical_skills/coding_skills/README.md)
 - 可読性
 - 拡張性
 - セキュリティ
@@ -31,14 +32,15 @@
 
 ### 必須
 
-- プログラミング言語
+- [Ruby]()
+- [オブジェクト指向]()
 - Linux
 - Git
 - データベース
 - SQL
 - HTML/CSS
 - JavaScript
-- Webフレームワーク
+- Rails
 - AWS
 - Web
 
@@ -47,12 +49,11 @@
 - テスト
 - 認証
 - セキュリティ
-- 監視・アラート
 - デプロイ
+- 監視・アラート
 - Docker/Kubernetes
 - React/Next.js/Vue/Nuxt
 - TypeScript
 - API
-- インフラコード管理（terraform）
 - データ構造
 - アルゴリズム
