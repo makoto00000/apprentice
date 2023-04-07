@@ -58,16 +58,14 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest/README.
 1. Skill Doc を読む
 
 - [実装力][Level1] [コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
-- [学習力][レベル1] [継続的に学べるか]()
-- [個別技術] [プログラミング言語]()
+- [個別技術] [Ruby](skilldoc/technologies/RUBY.md)
 
-2. QUEST を解く
+1. QUEST を解く
 
 - [実装力][Level1] [コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
-- [学習力][レベル1] [継続的に学べるか]()
-- [個別技術] [プログラミング言語]()
+- [Ruby][Level1] [変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
 
-3. 提出 QUEST を提出する
+1. 提出 QUEST を提出する
 
 - [ポーカー]()
 

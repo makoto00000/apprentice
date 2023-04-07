@@ -32,8 +32,8 @@
 
 ### 必須
 
-- [Ruby]()
-- [オブジェクト指向]()
+- [Ruby](/skilldoc/technologies/RUBY.md)
+- オブジェクト指向
 - Linux
 - Git
 - データベース
