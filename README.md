@@ -59,7 +59,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    1. [[実装力][Level1] コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
    2. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
 3. 提出 QUEST を提出する
-   1. [ポーカー]()
+   1. [ブラックジャックゲーム](quest/technologies/ruby/BLACKJACK.md)
 4. ブログ記事を投稿する
 
 ### Week 3-4: Linux/Git,GitHub
