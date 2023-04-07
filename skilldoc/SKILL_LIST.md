@@ -32,7 +32,7 @@
 
 ### 必須
 
-- [Ruby](/skilldoc/technologies/RUBY.md)
+- [Ruby](technologies/RUBY.md)
 - オブジェクト指向
 - Linux
 - Git
