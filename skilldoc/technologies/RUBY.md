@@ -2,7 +2,7 @@
 
 ## Level 1
 
-- [ ] [変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
+- [ ] [変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
 - [ ] 条件分岐を使うことができる
 - [ ] 繰り返し処理を行うことができる
 - [ ] メソッドを自作し使うことができる

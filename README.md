@@ -57,7 +57,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    2. [[個別技術] Ruby](skilldoc/technologies/RUBY.md)
 2. QUEST を解く
    1. [[実装力][Level1] コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
-   2. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
+   2. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
 3. 提出 QUEST を提出する
    1. [ポーカー]()
 4. ブログ記事を投稿する
