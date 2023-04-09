@@ -32,10 +32,10 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    1. Skill Doc を読む
    2. QUEST を手元で解く
    3. 提出 QUEST を解き、GitHub のご自身のリポジトリ、Gist もしくはその他ドキュメントツールにアップする(本リポジトリにはプッシュしない)
-   4. [1期生シート]()にアップした URL を記載する(URL は公開設定になっていることを確認する)
+   4. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing)にアップした URL を記載する(URL は公開設定になっていることを確認する)
 2. 技術ブログ記事を投稿する
    1. 学んだことを技術ブログ記事として1本以上書き、Qiita や Zenn、ブログサイト等に投稿する
-   2. [1期生シート]()にブログ記事の URL を記載する(複数ある場合は1つでOK)
+   2. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing)にブログ記事の URL を記載する(複数ある場合は1つでOK)
 
 余裕がある場合は次の内容にもトライしましょう。技術力が付き、企業からの評価も俄然良くなります。
 
