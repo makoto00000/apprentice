@@ -53,13 +53,26 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 期間：4/10(月) - 4/23(日), 締切：4/23(日), 最終締切：5/7(日)
 
 1. Skill Doc を読む
-   1. [[実装力][Level1] コードを手元で動かすことができる](skilldoc/technical_skills/coding_skills/RUN_CODE.md)
-   2. [[個別技術] Ruby](skilldoc/technologies/RUBY.md)
+   1. [[実装力][Level1] コードを手元で動かすことができる](/skilldoc/technical_skills/coding_skills/RUN_CODE.md)
+   2. [Ruby](/skilldoc/technologies/RUBY.md)
 2. QUEST を解く
-   1. [[実装力][Level1] コードを手元で動かすことができる](quest/technical_skills/coding_skills/RUN_CODE.md)
-   2. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/variable.md)
+   1. [[実装力][Level1] コードを手元で動かすことができる](/quest/technical_skills/coding_skills/RUN_CODE.md)
+   2. [[Ruby][Level1] メソッドを自作し使うことができる](/quest/technologies/ruby/METHOD.md)
+   3. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
+   4. [[Ruby][Level1] 条件分岐を使うことができる](/quest/technologies/ruby/CONDITIONAL_EXECUTION.md)
+   5. [[Ruby][Level1] 繰り返し処理を行うことができる](/quest/technologies/ruby/LOOP.md)
+   6. [[Ruby][Level2] ブロックを使った配列の処理ができる](/quest/technologies/ruby/BLOCK.md)
+   7. [[Ruby][Level2] ハッシュを使うことができる](/quest/technologies/ruby/HASH.md)
+   8. [[Ruby][Level2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)
+   9. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
+   10. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
+   11. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)
+   12. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
+   13. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)
+   14. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)
+   15. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)
 3. 提出 QUEST を提出する
-   1. [ポーカー]()
+   1. [ブラックジャックゲーム](/quest/technologies/ruby/BLACKJACK.md)
 4. ブログ記事を投稿する
 
 ### Week 3-4: Linux/Git,GitHub
