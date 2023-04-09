@@ -33,7 +33,7 @@
 ### 必須
 
 - [Ruby](technologies/RUBY.md)
-- オブジェクト指向
+- [オブジェクト指向](technologies/OBJECT_ORIENTED.md)
 - Linux
 - Git
 - データベース
