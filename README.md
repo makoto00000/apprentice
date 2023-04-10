@@ -53,12 +53,12 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 期間：4/10(月) - 4/23(日), 締切：4/23(日), 最終締切：5/7(日)
 
 1. Skill Doc を読む
-   1. [[実装力][Level1] コードを手元で動かすことができる](/skilldoc/technical_skills/coding_skills/RUN_CODE.md)
-   2. [[学習力][Level1] 続的に学習時間を確保できる](skilldoc/conceptual_skills/curiosity/STUDY_HOURS.md)
+   1. [[学習力][Level1] 続的に学習時間を確保できる](skilldoc/conceptual_skills/curiosity/STUDY_HOURS.md)
+   2. [[実装力][Level1] コードを手元で動かすことができる](/skilldoc/technical_skills/coding_skills/RUN_CODE.md)
    3. [Ruby](/skilldoc/technologies/RUBY.md)
 2. QUEST を解く
-   1. [[実装力][Level1] コードを手元で動かすことができる](/quest/technical_skills/coding_skills/RUN_CODE.md)
-   2. [[学習力][Level1] 続的に学習時間を確保できる](/quest/conceptual_skills/curiosity/STUDY_HOURS.md)
+   1. [[学習力][Level1] 続的に学習時間を確保できる](/quest/conceptual_skills/curiosity/STUDY_HOURS.md)
+   2. [[実装力][Level1] コードを手元で動かすことができる](/quest/technical_skills/coding_skills/RUN_CODE.md)
    3. [[Ruby][Level1] メソッドを自作し使うことができる](/quest/technologies/ruby/METHOD.md)
    4. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
    5. [[Ruby][Level1] 条件分岐を使うことができる](/quest/technologies/ruby/CONDITIONAL_EXECUTION.md)
