@@ -95,15 +95,15 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 期間：6/19(月) - 7/2(日)
 
-### Week 13-14: オリジナルプロダクト①アプリケーション実装
+### Week 13-14: [オリジナルプロダクト①アプリケーション実装](skilldoc/technologies/ORIGINAL_PRODUCT.md)
 
 期間：7/3(月)- 7/16(日)
 
-### Week 15-16: オリジナルプロダクト②インフラ構築
+### Week 15-16: [オリジナルプロダクト②インフラ構築](skilldoc/technologies/ORIGINAL_PRODUCT.md)
 
 期間：7/17(月)- 7/30(日)
 
-### Week 17-18: オリジナルプロダクト③機能拡張
+### Week 17-18: [オリジナルプロダクト③機能拡張](skilldoc/technologies/ORIGINAL_PRODUCT.md)
 
 期間：7/31(月)- 8/13(日)
 
