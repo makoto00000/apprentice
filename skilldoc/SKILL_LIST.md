@@ -4,7 +4,7 @@
 
 ## マインド/思考スキル
 
-- 技術好奇心・学習力
+- [技術好奇心・学習力](conceptual_skills/curiosity/README.md)
 - 事業貢献思考
 - やりきる力
 - 素直さ

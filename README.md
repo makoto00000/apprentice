@@ -30,7 +30,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 1. QUEST を解く
    1. Skill Doc を読む
-   2. QUEST を手元で解く
+   2. QUEST を手元で解く。advanced も基本的には必須だが、時間に余裕がない場合はスキップしてもよい
    3. 提出 QUEST を解き、GitHub のご自身のリポジトリ、Gist もしくはその他ドキュメントツールにアップする(本リポジトリにはプッシュしない)
    4. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing)にアップした URL を記載する(URL は公開設定になっていることを確認する)
 2. 技術ブログ記事を投稿する
@@ -54,23 +54,25 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 1. Skill Doc を読む
    1. [[実装力][Level1] コードを手元で動かすことができる](/skilldoc/technical_skills/coding_skills/RUN_CODE.md)
-   2. [Ruby](/skilldoc/technologies/RUBY.md)
+   2. [[学習力][Level1] 続的に学習時間を確保できる](skilldoc/conceptual_skills/curiosity/STUDY_HOURS.md)
+   3. [Ruby](/skilldoc/technologies/RUBY.md)
 2. QUEST を解く
    1. [[実装力][Level1] コードを手元で動かすことができる](/quest/technical_skills/coding_skills/RUN_CODE.md)
-   2. [[Ruby][Level1] メソッドを自作し使うことができる](/quest/technologies/ruby/METHOD.md)
-   3. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
-   4. [[Ruby][Level1] 条件分岐を使うことができる](/quest/technologies/ruby/CONDITIONAL_EXECUTION.md)
-   5. [[Ruby][Level1] 繰り返し処理を行うことができる](/quest/technologies/ruby/LOOP.md)
-   6. [[Ruby][Level2] ブロックを使った配列の処理ができる](/quest/technologies/ruby/BLOCK.md)(advanced)
-   7. [[Ruby][Level2] ハッシュを使うことができる](/quest/technologies/ruby/HASH.md)(advanced)
-   8. [[Ruby][Level2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)(advanced)
-   9. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
-   10. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
-   11. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)(advanced)
-   12. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
-   13. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)(advanced)
-   14. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)(advanced)
-   15. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(advanced)
+   2. [[学習力][Level1] 続的に学習時間を確保できる](/quest/conceptual_skills/curiosity/STUDY_HOURS.md)
+   3. [[Ruby][Level1] メソッドを自作し使うことができる](/quest/technologies/ruby/METHOD.md)
+   4. [[Ruby][Level1] 変数を宣言し代入することができる](/quest/technologies/ruby/VARIABLE.md)
+   5. [[Ruby][Level1] 条件分岐を使うことができる](/quest/technologies/ruby/CONDITIONAL_EXECUTION.md)
+   6. [[Ruby][Level1] 繰り返し処理を行うことができる](/quest/technologies/ruby/LOOP.md)
+   7. [[Ruby][Level2] ブロックを使った配列の処理ができる](/quest/technologies/ruby/BLOCK.md)(advanced)
+   8. [[Ruby][Level2] ハッシュを使うことができる](/quest/technologies/ruby/HASH.md)(advanced)
+   9. [[Ruby][Level2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)(advanced)
+   10. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
+   11. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
+   12. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)(advanced)
+   13. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
+   14. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)(advanced)
+   15. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)(advanced)
+   16. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(advanced)
 3. 提出 QUEST を提出する
    1. [ブラックジャックゲーム](/quest/technologies/ruby/BLACKJACK.md)
 4. ブログ記事を投稿する
