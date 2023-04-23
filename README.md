@@ -101,7 +101,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    11. [[linux][Level3] シェルスクリプトを書くことができる](/quest/technologies/linux/SHELLSCRIPT.md)
    12. [[linux][Level3] Linux をローカルで使うことができる](/quest/technologies/linux/USE_LINUX.md)(advanced)
    13. [[Git] [Level1] コミットができる](/quest/technologies/git/COMMIT.md)
-   14. [[Git] [Level1] 変更状況を確認できる](/quest/technologies/git/STATUS.mdx)
+   14. [[Git] [Level1] 変更状況を確認できる](/quest/technologies/git/STATUS.md)
    15. [[Git] [Level1] 変更を元に戻すことができる](/quest/technologies/git/RESTORE.md)
    16. [[Git] [Level2] GitHub を使って開発を進めることができる](/quest/technologies/git/GITHUB.md)
    17. [[Git] [Level1] ブランチを利用して開発を進めることができる](/quest/technologies/git/BRANCH.md)

@@ -11,7 +11,7 @@ Git と GitHub の基本操作を身につけることで、Git でのチーム�
 ## Level 1
 
 - [ ] [コミットができる](/quest/technologies/git/COMMIT.md)
-- [ ] [変更状況を確認できる](/quest/technologies/git/STATUS.mdx)
+- [ ] [変更状況を確認できる](/quest/technologies/git/STATUS.md)
 - [ ] [変更を元に戻すことができる](/quest/technologies/git/RESTORE.md)
 
 ## Level 2
