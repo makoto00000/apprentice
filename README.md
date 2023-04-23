@@ -65,21 +65,51 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    6. [[Ruby][Level1] 繰り返し処理を行うことができる](/quest/technologies/ruby/LOOP.md)
    7. [[Ruby][Level2] ブロックを使った配列の処理ができる](/quest/technologies/ruby/BLOCK.md)(advanced)
    8. [[Ruby][Level2] ハッシュを使うことができる](/quest/technologies/ruby/HASH.md)(advanced)
-   9. [[Ruby][Level2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)(advanced)
-   10. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
-   11. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
-   12. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)(advanced)
-   13. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
-   14. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)(advanced)
-   15. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)(advanced)
-   16. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(advanced)
+   9. [[Ruby][Level
+   10. 2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)(advanced)
+   11. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
+   12. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
+   13. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)(advanced)
+   14. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
+   15. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)(advanced)
+   16. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)(advanced)
+   17. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(advanced)
 3. 提出 QUEST を提出する
    1. [ブラックジャックゲーム](/quest/technologies/ruby/BLACKJACK.md)
 4. ブログ記事を投稿する
 
 ### Week 3-4: Linux/Git,GitHub
 
-期間：4/24(月) - 5/7(日)
+期間：4/24(月) - 5/7(日), 締切：5/7(日), 最終締切：5/21(日)
+
+1. Skill Doc を読む
+   1. [[学習力][Level1] ゴールから逆算して学ぶことができる](/skilldoc/conceptual_skills/curiosity/GOAL.md)
+   2. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/skilldoc/human_skills/communication/DOCUMENTATION.md)
+   3. [Linux](skilldoc/technologies/LINUX.md)
+   4. [Git](skilldoc/technologies/GIT.md)
+2. QUEST を解く
+   1. [[学習力][Level1] ゴールから逆算して学ぶことができる](/quest/conceptual_skills/curiosity/GOAL.md)
+   2. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/quest/human_skills/communication/DOCUMENTATION.md)
+   3. [[linux][Level1] Linux が何かを説明できる](/quest/technologies/linux/LINUX.md)
+   4. [[linux][Level1] Linux の環境を用意することができる](/quest/technologies/linux/ENVIRONMENT.md)
+   5. [[linux][Level1] ディレクトリを操作できる](/quest/technologies/linux/DIRECTORY.md)
+   6. [[linux][Level1] マニュアルを確認できる](/quest/technologies/linux/MAN.md)
+   7. [[linux][Level1] ファイルを操作できる](/quest/technologies/linux/FILE.md)
+   8. [[linux][Level2] 標準入出力を扱える](/quest/technologies/linux/STANDARD.md)
+   9. [[linux][Level2] パーミッションを操作できる](/quest/technologies/linux/PERMISSION.md)
+   10. [[linux][Level3] プロセス・ジョブを管理できる](/quest/technologies/linux/PROCESS.md)
+   11. [[linux][Level3] シェルスクリプトを書くことができる](/quest/technologies/linux/SHELLSCRIPT.md)
+   12. [[linux][Level3] Linux をローカルで使うことができる](/quest/technologies/linux/USE_LINUX.md)(advanced)
+   13. [[Git] [Level1] コミットができる](/quest/technologies/git/COMMIT.md)
+   14. [[Git] [Level1] 変更状況を確認できる](/quest/technologies/git/STATUS.mdx)
+   15. [[Git] [Level1] 変更を元に戻すことができる](/quest/technologies/git/RESTORE.md)
+   16. [[Git] [Level2] GitHub を使って開発を進めることができる](/quest/technologies/git/GITHUB.md)
+   17. [[Git] [Level1] ブランチを利用して開発を進めることができる](/quest/technologies/git/BRANCH.md)
+   18. [[Git] [Level1] GitHub フローに従って開発を進めることができる](/quest/technologies/git/PULLREQUEST.md)
+3. 提出 QUEST を提出する
+   1. [パスワードマネージャー](/quest/technologies/linux/PASSWORD_MANAGER.md)
+   2. 上記のコードを GitHub 上にアップして提出する。その際に、GitHub フローに従ってプルリクエストを作成し進めること
+4. ブログ記事を投稿する
 
 ### Week 5-6: データベース/SQL
 
