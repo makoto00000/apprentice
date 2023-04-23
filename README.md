@@ -84,11 +84,28 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 1. Skill Doc を読む
    1. [Linux](skilldoc/technologies/LINUX.md)
+   2. [Git](skilldoc/technologies/GIT.md)
 2. QUEST を解く
-   1. 
+   1. a
+   2. [[linux][Level1] Linux が何かを説明できる](/quest/technologies/linux/LINUX.md)
+   3. [[linux][Level1] Linux の環境を用意することができる](/quest/technologies/linux/ENVIRONMENT.md)
+   4. [[linux][Level1] ディレクトリを操作できる](/quest/technologies/linux/DIRECTORY.md)
+   5. [[linux][Level1] マニュアルを確認できる](/quest/technologies/linux/MAN.md)
+   6. [[linux][Level1] ファイルを操作できる](/quest/technologies/linux/FILE.md)
+   7. [[linux][Level2] 標準入出力を扱える](/quest/technologies/linux/STANDARD.md)
+   8. [[linux][Level2] パーミッションを操作できる](/quest/technologies/linux/PERMISSION.md)
+   9. [[linux][Level3] プロセス・ジョブを管理できる](/quest/technologies/linux/PROCESS.md)
+   10. [[linux][Level3] シェルスクリプトを書くことができる](/quest/technologies/linux/SHELLSCRIPT.md)
+   11. [[linux][Level3] Linux をローカルで使うことができる](/quest/technologies/linux/USE_LINUX.md)(advanced)
+   12. [[Git] [Level1] コミットができる](/quest/technologies/git/COMMIT.md)
+   13. [[Git] [Level1] 変更状況を確認できる](/quest/technologies/git/STATUS.mdx)
+   14. [[Git] [Level1] 変更を元に戻すことができる](/quest/technologies/git/RESTORE.md)
+   15. [[Git] [Level2] GitHub を使って開発を進めることができる](/quest/technologies/git/GITHUB.md)
+   16. [[Git] [Level1] ブランチを利用して開発を進めることができる](/quest/technologies/git/BRANCH.md)
+   17. [[Git] [Level1] GitHub フローに従って開発を進めることができる](/quest/technologies/git/PULLREQUEST.md)
 3. 提出 QUEST を提出する
    1. [パスワードマネージャー](/quest/technologies/linux/PASSWORD_MANAGER.md)
-   2. 上記のコードを GitHub 上にアップして提出する
+   2. 上記のコードを GitHub 上にアップして提出する。その際に、GitHub フローに従ってプルリクエストを作成し進めること
 4. ブログ記事を投稿する
 
 ### Week 5-6: データベース/SQL
