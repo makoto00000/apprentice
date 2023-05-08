@@ -146,18 +146,42 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 3. 提出 QUEST を提出する
    1. [インターネットTV](/quest/technologies/database/INTERNET_TV.md)
 4. ブログ記事を投稿する
+5. オリジナルプロダクトのテーマを提出する
+   2. [オリジナルプロダクトのテーマ](/quest/technologies/original_product/THEME.md)を決定する
+   3. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) にテーマのURLを提出し、メンターに連絡する
 
 ### Week 7-8: HTML/CSS/JavaScript
 
 期間：5/22(月) - 6/4(日)
 
+1. Skill Doc を読む
+2. QUEST を解く
+3. 提出 QUEST を提出する
+4. ブログ記事を投稿する
+5. オリジナルプロダクトのテーマをブラッシュアップする
+   1. メンターからテーマについてのフィードバックを受ける
+   2. テーマをブラッシュアップ・修正する
+   3. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) に修正したテーマのURLを提出する
+
 ### Week 9-10: Rails/テスト
 
 期間：6/5(月)- 6/18(日)
 
+1. Skill Doc を読む
+2. QUEST を解く
+3. 提出 QUEST を提出する
+4. ブログ記事を投稿する
+5. オリジナルプロダクトの設計案を提出する
+
 ### Week 11-12: AWS/Web
 
 期間：6/19(月) - 7/2(日)
+
+1. Skill Doc を読む
+2. QUEST を解く
+3. 提出 QUEST を提出する
+4. ブログ記事を投稿する
+5. オリジナルプロダクトの設計案をブラッシュアップする
 
 ### Week 13-14: [オリジナルプロダクト①アプリケーション実装](skilldoc/technologies/ORIGINAL_PRODUCT.md)
 
