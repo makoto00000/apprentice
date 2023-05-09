@@ -65,15 +65,14 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    6. [[Ruby][Level1] 繰り返し処理を行うことができる](/quest/technologies/ruby/LOOP.md)
    7. [[Ruby][Level2] ブロックを使った配列の処理ができる](/quest/technologies/ruby/BLOCK.md)(advanced)
    8. [[Ruby][Level2] ハッシュを使うことができる](/quest/technologies/ruby/HASH.md)(advanced)
-   9. [[Ruby][Level
-   10. 2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)(advanced)
-   11. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
-   12. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
-   13. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)(advanced)
-   14. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
-   15. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)(advanced)
-   16. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)(advanced)
-   17. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(advanced)
+   9. [[Ruby][Level2] シンボルを使うことができる](/quest/technologies/ruby/SYMBOL.md)(advanced)
+   10. [[オブジェクト指向][Level2] オブジェクト指向が何かを説明できる](/quest/technologies/object_oriented/OBJECT_ORIENTED_EXPLAIN.md)
+   11. [[オブジェクト指向][Level2] オブジェクト指向を使うことができる](/quest/technologies/object_oriented/OBJECT_ORIENTED_DEVELOPMENT.md)
+   12. [[Ruby][Level2] モジュールを説明できる](/quest/technologies/ruby/MODULE.md)(advanced)
+   13. [[Ruby][Level2] 例外処理を使うことができる](/quest/technologies/ruby/EXCEPTION.md)
+   14. [[Ruby][Level2] 外部ライブラリを使うことができる](/quest/technologies/ruby/LIBRARY.md)(advanced)
+   15. [[Ruby][Level2] デバッガを活用してデバッグができる](/quest/technologies/ruby/DEBUGGER.md)(advanced)
+   16. [[Ruby][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(advanced)
 3. 提出 QUEST を提出する
    1. [ブラックジャックゲーム](/quest/technologies/ruby/BLACKJACK.md)
 4. ブログ記事を投稿する
