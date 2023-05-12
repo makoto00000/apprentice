@@ -156,8 +156,15 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 期間：5/22(月) - 6/4(日)
 
 1. Skill Doc を読む
+   1. [HTML](skilldoc/technologies/HTML.md)
 2. QUEST を解く
+   1. [[HTML][Level1] HTML と CSSについて説明できる](/quest/technologies/html/HTML_EXPLAIN.md)
+   2. [[HTML][Level1] HTML と CSS の基本を理解している](/quest/technologies/html/HTML_BASIC.md)
+   3. [[HTML][Level2] 簡単なサイトの模写ができる](/quest/technologies/html/SIMPLE_SITE_COPY.md)
+   4. [[HTML][Level2] レスポンシブ対応できる](/quest/technologies/html/RESPONSIVE.md)
+   5. [[HTML][Level2] HTML/CSS スタイルガイドに則って書ける](/quest/technologies/html/STYLEGUIDE.md)
 3. 提出 QUEST を提出する
+   1. [模写](/quest/technologies/html/REPRODUCTION.md)を作成する。[1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) には完了時点で「◯」と記載し、フィードバック会では画面共有にて作成物及びコードをメンターに見せフィードバックをもらうこと
 4. ブログ記事を投稿する
 5. オリジナルプロダクトのテーマをブラッシュアップする
    1. メンターからテーマについてのフィードバックを受ける
