@@ -31,15 +31,15 @@ advanced についてはより発展的な内容を取り扱っております�
 
 ## Level 3
 
-- [ ] [クラスを自作し使うことができる]()(advanced)
-- [ ] [例外処理を使うことができる]()(advanced)
-- [ ] [非同期で処理できる]()(advanced)
-- [ ] [Ajax 通信できる]()(advanced)
-- [ ] [ライブラリを使用できる]()(advanced)
-- [ ] [Lint を使用できる]()(advanced)
-- [ ] [JavaScript フレームワークを使うことができる](/quest/technologies/javascript/FRAMEWORK.md)(advanced)
+- [ ] [クラスを自作し使うことができる](/quest/technologies/javascript/CLASS.md)
+- [ ] [例外処理を使うことができる](/quest/technologies/javascript/EXCEPTION.md)
+- [ ] [ライブラリを使用できる](/quest/technologies/javascript/LIBRARY.md)
+- [ ] [Lint ツールを使用できる](/quest/technologies/javascript/LINT.md)
+- [ ] [非同期で処理できる](/quest/technologies/javascript/ASYNC.md)
+- [ ] [Ajax 通信できる](/quest/technologies/javascript/ajax.md)
+- [ ] [JavaScript フレームワークを使うことができる](/quest/technologies/javascript/FRAMEWORK.md)
 
 ## Level 4
 
-- [ ] [ブラウザの仕組みを説明できる](/quest/technologies/javascript/BROWSER.md)(advanced)
-- [ ] [TypeScript を使うことができる](/quest/technologies/javascript/TYPESCRIPT.md)(advanced)
+- [ ] [ブラウザの仕組みを説明できる](/quest/technologies/javascript/BROWSER.md)
+- [ ] [TypeScript を使うことができる](/quest/technologies/javascript/TYPESCRIPT.md)
