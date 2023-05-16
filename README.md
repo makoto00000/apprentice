@@ -188,9 +188,12 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    1. [模写](/quest/technologies/html/REPRODUCTION.md)を作成する。[1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) には完了時点で「◯」と記載し、フィードバック会では画面共有にて作成物及びコードをメンターに見せフィードバックをもらうこと
 4. ブログ記事を投稿する
 5. オリジナルプロダクトのテーマをブラッシュアップする
-   1. メンターからテーマについてのフィードバックを受ける
-   2. テーマをブラッシュアップ・修正する
-   3. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) に修正したテーマのURLを提出する
+   1. メンターからテーマについてのフィードバックを受け、テーマをブラッシュアップする
+   2. Skill Doc [[事業貢献思考][Level2] 自分や誰かのための制作物を作ることができる](/skilldoc/conceptual_skills/business_thinking/FOR_WE.md) を読む
+   3. Skill Doc [[プロジェクト管理][Level2] 顧客が求めている要求を明確にできる](/skilldoc/technical_skills/project_management/REQUIREMENTS_ANALYSIS.md) を読む
+   4. Skill Doc [[プロジェクト管理][Level2] 要求をシステム要件として定義できる](/skilldoc/technical_skills/project_management/REQUIREMENT_DEFINITION.md) を読む
+   5. [要件定義](/quest/technologies/original_product/REQUIREMENT_DEFINITION.md) を行う
+   6. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) に修正したテーマと要件定義を記載したURLを提出する
 
 ### Week 9-10: Rails/テスト
 
