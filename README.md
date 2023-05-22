@@ -169,8 +169,10 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 期間：6/5(月)- 6/18(日)
 
 1. Skill Doc を読む
+   1.
 2. QUEST を解く
 3. 提出 QUEST を提出する
+   1. [RealWorld](/quest/technologies/rails/REALWORLD.md)
 4. ブログ記事を投稿する
 5. オリジナルプロダクトの設計案を提出する
 

@@ -17,7 +17,7 @@
 ## オブジェクト指向
 
 ### [オブジェクト指向でなぜつくるのか](https://www.amazon.co.jp/dp/B092HDFJKK/)
-  
+
 - オブジェクト指向がそもそもなぜ必要かということがわかりやすく解説されています
 
 ### [オブジェクト指向設計実践ガイド](https://www.amazon.co.jp/dp/B01L8SEVYI/)
@@ -91,9 +91,9 @@
 
 ## Rails
 
-###  [Ruby on Rails チュートリアル](https://railstutorial.jp/)
+### [Ruby on Rails チュートリアル](https://railstutorial.jp/)
 
-- Webサービスを作りながら学ぶ Rails の定番のチュートリアルです。Rails の基本を学ぶことができます
+- Webサービスを作りながら学ぶ Rails の定番のチュートリアルです。Rails の基本を学ぶことができます。
 
 ### [Ruby on Rails ガイド](https://railsguides.jp/)
 
