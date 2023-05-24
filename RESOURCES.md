@@ -77,7 +77,7 @@
 
 ### [Progate HTML & CSS](https://prog-8.com/courses/html)
 
-- Progate の HTML & CSS コースです。わかりやすくオススメです。上級編までは是非やってみてください
+- Progate の HTML & CSS コースです。わかりやすくオススメです。道場レッスン上級編までは是非やってみてください
 
 ### [1冊ですべて身につくHTML ＆ CSSとWebデザイン入門講座](https://www.amazon.co.jp/dp/B07PS1ZJN6/)
 
@@ -87,13 +87,43 @@
 
 ### [JavaScript Primer](https://jsprimer.net/)
 
-- ECMAScript 2015以降の JavaScript を基礎から学ぶことができます
+- ECMAScript 2015以降の JavaScript を基礎から無料で学ぶことができます
+
+### [JavaScript本格入門](https://www.amazon.co.jp/dp/B0BT1CNF1C/)
+
+- JavaScript を本格的に学ぶための入門書です。分厚いためわからないときに参照するのに向いています。
+
+### [JavaScript Promiseの本](https://azu.github.io/promises-book/)
+
+非同期処理についてしっかりと学ぶことができます。
+
+## React
+
+### [Quick Start](https://react.dev/learn)
+
+- React の公式リファレンスです。React は公式がわかりやすいので公式で学ぶのをオススメします
+
+## Vue
+
+### [Docs](https://vuejs.org/guide/introduction.html)
+
+- Vue の公式リファレンスです。Vue は公式がわかりやすいので公式で学ぶのをオススメします
+
+## TypeScript
+
+### [サバイバルTypeScript](https://typescriptbook.jp/)
+
+網羅的な日本語での TypeScript 解説です。わかりやすく書かれています。
+
+### [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
+
+TypeScript のオープンソースのドキュメントです。入門から様々な機能まで解説されています。
 
 ## Rails
 
 ### [Ruby on Rails チュートリアル](https://railstutorial.jp/)
 
-- Webサービスを作りながら学ぶ Rails の定番のチュートリアルです。この内容が一通りできれば、実務に入る準備が最低限できています。なお、難易度がやや高く、分量も多いため学習に時間がかかります。時間がない場合は Progate や Udemy で学ぶのをオススメします
+- Webサービスを作りながら学ぶ Rails の定番のチュートリアルです。この内容が一通りできれば、実務に入る準備が最低限できています。なお、難易度がやや高く、分量も多いため学習に時間がかかります。時間がない場合は Progate や Udemy で学ぶことをオススメします
 
 ### [Ruby on Rails ガイド](https://railsguides.jp/)
 
@@ -164,18 +194,6 @@ APIをどのように設計し運用すればより効果的かを学ぶこと�
 ### [Docker-docs](https://docs.docker.jp/)
 
 - Docker の公式リファレンスです。Docker の詳細はこちらをご参照ください
-
-## React
-
-### [Quick Start](https://react.dev/learn)
-
-- React の公式リファレンスです。React は公式がわかりやすいので公式で学ぶのをオススメします
-
-## Vue
-
-### [Docs](https://vuejs.org/guide/introduction.html)
-
-- Vue の公式リファレンスです。Vue は公式がわかりやすいので公式で学ぶのをオススメします
 
 ## プログラミングの原則
 
