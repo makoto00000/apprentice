@@ -204,7 +204,6 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    2. [API](/skilldoc/technologies/API.md)
    3. [テスト](/skilldoc/technologies/TEST.md)
    4. [[実装力][Level2] エラー原因を特定することができる](/skilldoc/technical_skills/coding_skills/ERROR.md)
-   5.
 2. QUEST を解く
    1. [[実装力][Level2] エラー原因を特定することができる](/quest/technical_skills/coding_skills/ERROR.md)
    2. [[Rails][Level2] MVC について説明できる](/quest/technologies/rails/MVC.md)

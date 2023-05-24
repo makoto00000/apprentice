@@ -14,7 +14,7 @@ RealWorld は実世界と同じ機能を持つプラットフォームを作る�
 
 基本的にはステップ2を進めていくことを想定していますが、時間に余裕がない場合はステップ1を進めてください。
 
-[RealWorldのドキュメント](https://realworld-docs.netlify.app/docs/intro) に目を通した上で、ステップに進んでください。
+[RealWorld のドキュメント](https://realworld-docs.netlify.app/docs/intro) に目を通した上で、ステップに進んでください。
 
 ## ステップ1
 
@@ -31,11 +31,11 @@ RealWorld　の API のうち、次のエンドポイントを実装してくだ
 
 ### 2-1
 
-RealWorld　の API のうち、次のエンドポイントを実装してください。
+RealWorld の API のうち、次のエンドポイントを実装してください。
 
 - [Registration](https://realworld-docs.netlify.app/docs/specs/backend-specs/endpoints#registration)
 
-その際に、[API spec](https://github.com/gothinkster/realworld/tree/main/api) と呼ばれている [Postman のテスト(Conduit.postman_collection.json)](https://github.com/gothinkster/realworld/blob/main/api/Conduit.postman_collection.json)の該当する箇所が通るように実装してください。
+その際に、[API spec](https://github.com/gothinkster/realworld/tree/main/api) と呼ばれている [Postman のテスト(Conduit.postman_collection.json)](https://github.com/gothinkster/realworld/blob/main/api/Conduit.postman_collection.json)の該当する箇所が通るように実装してください(該当箇所以外のテストは削除するとテストしやすいです)。
 
 ### 2-2
 
@@ -60,4 +60,4 @@ minitest もしくは RSpec を使って、2-1 のエンドポイントのテス
 
 その際に、Postman のテストの該当する箇所が通るように実装してください。
 
-なお、Article に関わる要素のうち、タグ及びお気に入り(`favorite`) は実装しなくてよいものとします。Postman のテストからも除外してください。
+なお、Article に関わる要素のうち、タグ及びお気に入り(`favorite`) は実装しなくてよいものとします。Postman のテストからも該当箇所のコードは削除し除外してください。
