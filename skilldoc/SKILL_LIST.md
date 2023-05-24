@@ -31,15 +31,17 @@
 
 ### 必須
 
-- [Ruby](technologies/RUBY.md)
-- [オブジェクト指向](technologies/OBJECT_ORIENTED.md)
-- Linux
-- Git
-- データベース
-- SQL
+- [Ruby](/skilldoc/technologies/RUBY.md)
+- [オブジェクト指向](/skilldoc/technologies/OBJECT_ORIENTED.md)
+- [Linux](/skilldoc/technologies/LINUX.md)
+- [Git](/skilldoc/technologies/GIT.md)
+- [データベース](/skilldoc/technologies/DATABASE.md)
+- [SQL](/skilldoc/technologies/SQL.md)
 - HTML/CSS
 - JavaScript
-- Rails
+- [Rails](/skilldoc/technologies/RAILS.md)
+- [API](/skilldoc/technologies/API.md)
+- [テスト](/skilldoc/technologies/TEST.md)
 - AWS
 - Web
 

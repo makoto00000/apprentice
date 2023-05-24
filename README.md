@@ -164,13 +164,29 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    2. テーマをブラッシュアップ・修正する
    3. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) に修正したテーマのURLを提出する
 
-### Week 9-10: Rails/テスト
+### Week 9-10: Rails/API/テスト
 
 期間：6/5(月)- 6/18(日)
 
 1. Skill Doc を読む
-   1.
+   1. [Rails](/skilldoc/technologies/RAILS.md)
+   2. [API](/skilldoc/technologies/API.md)
+   3. [テスト](/skilldoc/technologies/TEST.md)
 2. QUEST を解く
+   1. [[Rails][Level2] MVC について説明できる](/quest/technologies/rails/MVC.md)
+   2. [[Rails][Level2] CRUD 処理を実装できる](/quest/technologies/rails/CRUD.md)
+   3. [[Rails][Level2] ActiveRecord を使いこなせる](/quest/technologies/rails/ACTIVERECORD.md)
+   4. [[API][Level2] API について説明できる](/quest/technologies/api/API.md)
+   5. [[API][Level2] Postman を使って API をテストできる](/quest/technologies/api/POSTMAN.md)
+   6. [[API][Level2] 簡単な API を作成できる](/quest/technologies/api/EASY_API.md)
+   7. [[API][Level2] API を利用できる](/quest/technologies/api/USE_API.md)
+   8. [[API][Level3] REST について説明できる](/quest/technologies/api/REST.md)(advanced)
+   9. [[API][Level3] JWT 認証 について説明できる](/quest/technologies/api/JWT.md)(advanced)
+   10. [[API][Level3] JWT 認証を実装できる](/quest/technologies/api/CREATE_JWT.md)(advanced)
+   11. [[テスト][Level2] テストコードの方針について説明できる](/quest/technologies/test/TEST_POLICY.md)
+   12. [[テスト][Level2] テストの種類について説明できる](/quest/technologies/test/TEST_TYPE.md)
+   13. [[テスト][Level2] 単体テストを書くことができる](/quest/technologies/test/UNIT_TEST.md)
+   14. [[テスト][Level2] 結合テストを書くことができる](/quest/technologies/test/INTEGRATION_TEST.md)
 3. 提出 QUEST を提出する
    1. [RealWorld](/quest/technologies/rails/REALWORLD.md)
 4. ブログ記事を投稿する
