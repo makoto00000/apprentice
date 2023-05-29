@@ -153,7 +153,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 ### Week 7-8: HTML/CSS/JavaScript
 
-期間：5/22(月) - 6/4(日)
+期間：5/22(月) - 6/4(日), 締切：6/4(日), 最終締切：6/25(日)
 
 1. Skill Doc を読む
    1. [HTML](/skilldoc/technologies/HTML.md)
@@ -197,7 +197,7 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 ### Week 9-10: Rails/API/テスト
 
-期間：6/5(月)- 6/18(日)
+期間：6/5(月)- 6/18(日), 締切：6/18(日), 最終締切：7/16(日)
 
 1. Skill Doc を読む
    1. [Rails](/skilldoc/technologies/RAILS.md)
@@ -231,11 +231,26 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 ### Week 11-12: AWS/Web
 
-期間：6/19(月) - 7/2(日)
+期間：6/19(月) - 7/2(日), 締切：7/2(日), 最終締切：8/6(日)
 
 1. Skill Doc を読む
+   1. [Web](/skilldoc/technologies/WEB.md)
+   2. [AWS](/skilldoc/technologies/AWS.md)
 2. QUEST を解く
+   1. [[Web][Level2] HTTP について説明できる](/quest/technologies/web/HTTP.md)
+   2. [[Web][Level2] IP アドレスについて説明できる](/quest/technologies/web/IP.md)
+   3. [[Web][Level2] DNS について説明できる](/quest/technologies/web/DNS.md)
+   4. [[Web][Level2] ポート番号について説明できる](/quest/technologies/web/PORT.md)
+   5. [[Web][Level2] Cookie とセッションについて説明できる](/quest/technologies/web/COOKIE.md)
+   6. [[AWS][Level2] AWS について説明できる](/quest/technologies/aws/AWS.md)
+   7. [[AWS][Level2] VPC を構築できる](/quest/technologies/aws/VPC.md)
+   8. [[AWS][Level2] EC2 を構築できる](/quest/technologies/aws/EC2.md)
+   9. [[AWS][Level2] RDS を構築できる](/quest/technologies/aws/RDS.md)
+   10. [[AWS][Level2] EC2 上でアプリケーションを動作できる](/quest/technologies/aws/APPLICATION_ON_EC2.md)
+   11. [[AWS][Level2] Route53 でドメインを設定できる](/quest/technologies/aws/ROUTE53.md)
+   12. [[AWS][Level2] ACM で SSL 化できる](/quest/technologies/aws/ACM.md)
 3. 提出 QUEST を提出する
+   1. [RealWorld のデプロイ](/quest/technologies/aws/REALWORLD_DEPLOY.md)
 4. ブログ記事を投稿する
 5. オリジナルプロダクトの設計案第二弾を提出する
    1. [設計](/quest/technologies/original_product/DESIGN.md) のステップ2〜3を追記する

@@ -53,6 +53,5 @@
 - Docker/Kubernetes
 - React/Next.js/Vue/Nuxt
 - TypeScript
-- API
 - データ構造
 - アルゴリズム
