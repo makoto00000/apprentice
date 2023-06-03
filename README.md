@@ -249,6 +249,12 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    10. [[AWS][Level2] EC2 上でアプリケーションを動作できる](/quest/technologies/aws/APPLICATION_ON_EC2.md)
    11. [[AWS][Level2] Route53 でドメインを設定できる](/quest/technologies/aws/ROUTE53.md)
    12. [[AWS][Level2] ACM で SSL 化できる](/quest/technologies/aws/ACM.md)
+   13. [[CI/CD][Level3] CI/CD について説明できる](/quest/technologies/cicd/CICD.md)(advanced)
+   14. [[CI/CD][Level4] CI を構築できる](/quest/technologies/cicd/CI.md)(advanced)
+   15. [[CI/CD][Level4] CD を構築できる](/quest/technologies/cicd/CD.md)(advanced)
+   16. [[監視][Level4] 監視について説明できる](/quest/technologies/monitoring/MONITORING.md)(advanced)(提出 QUEST に合わせて行うとスムーズ)
+   17. [[監視][Level4] エラー監視ができる](/quest/technologies/monitoring/ERROR_MONITORING.md)(advanced)(提出 QUEST に合わせて行うとスムーズ)
+   18. [[監視][Level4] URL 監視ができる](/quest/technologies/monitoring/URL_MONITORING.md)(advanced)(提出 QUEST に合わせて行うとスムーズ)
 3. 提出 QUEST を提出する
    1. [RealWorld のデプロイ](/quest/technologies/aws/REALWORLD_DEPLOY.md)
 4. ブログ記事を投稿する
