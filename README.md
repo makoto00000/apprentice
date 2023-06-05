@@ -236,6 +236,9 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 1. Skill Doc を読む
    1. [Web](/skilldoc/technologies/WEB.md)
    2. [AWS](/skilldoc/technologies/AWS.md)
+   3. [運用](/skilldoc/technical_skills/operation/README.md)
+   4. [CI/CD](/skilldoc/technologies/CICD.md)(advanced)
+   5. [監視](/skilldoc/technologies/MONITORING.md)(advanced)
 2. QUEST を解く
    1. [[Web][Level2] HTTP について説明できる](/quest/technologies/web/HTTP.md)
    2. [[Web][Level2] IP アドレスについて説明できる](/quest/technologies/web/IP.md)
