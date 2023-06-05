@@ -38,13 +38,14 @@
 - [SQL](/skilldoc/technologies/SQL.md)
 - [HTML/CSS](/skilldoc/technologies/HTML.md)
 - [JavaScript](/skilldoc/technologies/JAVASCRIPT.md)
-- Rails
+- [Rails](/skilldoc/technologies/RAILS.md)
+- [API](/skilldoc/technologies/API.md)
+- [テスト](/skilldoc/technologies/TEST.md)
 - AWS
 - Web
 
 ### 推奨
 
-- テスト
 - 認証
 - セキュリティ
 - デプロイ

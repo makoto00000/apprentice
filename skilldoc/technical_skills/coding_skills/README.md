@@ -8,7 +8,7 @@
 
 ## Level 2
 
-- [ ] エラー原因を特定することができる
+- [ ] [エラー原因を特定することができる](/skilldoc/technical_skills/coding_skills/ERROR.md)
 - [ ] ゴールから逆算してコードを書くことができる
 
 ## Level 3

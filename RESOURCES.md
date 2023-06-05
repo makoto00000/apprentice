@@ -97,15 +97,57 @@
 
 非同期処理についてしっかりと学ぶことができます。
 
+## React
+
+### [Quick Start](https://react.dev/learn)
+
+- React の公式リファレンスです。React は公式がわかりやすいので公式で学ぶのをオススメします
+
+## Vue
+
+### [Docs](https://vuejs.org/guide/introduction.html)
+
+- Vue の公式リファレンスです。Vue は公式がわかりやすいので公式で学ぶのをオススメします
+
+## TypeScript
+
+### [サバイバルTypeScript](https://typescriptbook.jp/)
+
+網羅的な日本語での TypeScript 解説です。わかりやすく書かれています。
+
+### [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
+
+TypeScript のオープンソースのドキュメントです。入門から様々な機能まで解説されています。
+
 ## Rails
 
 ### [Ruby on Rails チュートリアル](https://railstutorial.jp/)
 
-- Webサービスを作りながら学ぶ Rails の定番のチュートリアルです。Rails の基本を学ぶことができます
+- Webサービスを作りながら学ぶ Rails の定番のチュートリアルです。この内容が一通りできれば、実務に入る準備が最低限できています。なお、難易度がやや高く、分量も多いため学習に時間がかかります。時間がない場合は Progate や Udemy で学ぶことをオススメします
 
 ### [Ruby on Rails ガイド](https://railsguides.jp/)
 
 - Rails の仕組みを体系的に学べる Rails のリファレンスです。Rails のわからないことはここで調べましょう
+
+## API
+
+### [小学生でもわかるWebAPI入門](https://youtu.be/6_zIN-bByB4)
+
+- WebAPI の基本のキを作りながら学べる動画です。最初の取っ掛かりにオススメです
+
+### [Web API: The Good Parts](https://www.amazon.co.jp/dp/4873116864/)
+
+APIをどのように設計し運用すればより効果的かを学ぶことができます。API の設計に携わる場合は是非目を通してみてください。
+
+## テスト
+
+### [Everyday Rails](https://leanpub.com/everydayrailsrspec-jp)
+
+- Rails の Rspec のテストについてはこの本を読んでおけば OK です
+
+### [【この1冊でよくわかる】ソフトウェアテストの教科書](https://www.amazon.co.jp/dp/B093Q13V96)
+
+- テストの基本を広く浅く学ぶことができます。この本を読んだだけではテストコードを書けるようにはならないのですが、この本を読んでから各分野のテストツールのドキュメントを読むことでちゃんとしたテストコードを書けるようになります
 
 ## AWS
 
@@ -126,12 +168,6 @@
 ### [マスタリングTCP/IP　入門編](https://www.amazon.co.jp/dp/B0827QNDNT/)
 
 - ネットワークの基礎を体系的にわかりやすく学ぶことができます。Web の基本の仕組みを把握するために是非読みましょう
-
-## テスト
-
-### [Everyday Rails](https://leanpub.com/everydayrailsrspec-jp)
-
-- Rails におけるテストについてはこの本を読んでおけば OK です
 
 ## セキュリティ
 
@@ -158,36 +194,6 @@
 ### [Docker-docs](https://docs.docker.jp/)
 
 - Docker の公式リファレンスです。Docker の詳細はこちらをご参照ください
-
-## React
-
-### [Quick Start](https://react.dev/learn)
-
-- React の公式リファレンスです。React は公式がわかりやすいので公式で学ぶのをオススメします
-
-## Vue
-
-### [Docs](https://vuejs.org/guide/introduction.html)
-
-- Vue の公式リファレンスです。Vue は公式がわかりやすいので公式で学ぶのをオススメします
-
-## TypeScript
-
-### [サバイバルTypeScript](https://typescriptbook.jp/)
-
-網羅的な日本語での TypeScript 解説です。わかりやすく書かれています。
-
-### [TypeScript Deep Dive 日本語版](https://typescript-jp.gitbook.io/deep-dive/)
-
-TypeScript のオープンソースのドキュメントです。入門から様々な機能まで解説されています。
-
-## API
-
-### [小学生でもわかるWebAPI入門](https://youtu.be/6_zIN-bByB4)
-
-- WebAPI の基本のキを作りながら学べる動画です。最初の取っ掛かりにオススメです
-
-- [Web API: The Good Parts](https://www.amazon.co.jp/dp/4873116864/)
 
 ## プログラミングの原則
 
