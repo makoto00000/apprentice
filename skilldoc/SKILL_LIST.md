@@ -41,18 +41,17 @@
 - [Rails](/skilldoc/technologies/RAILS.md)
 - [API](/skilldoc/technologies/API.md)
 - [テスト](/skilldoc/technologies/TEST.md)
-- AWS
-- Web
+- [AWS](/skilldoc/technologies/AWS.md)
+- [Web](/skilldoc/technologies/WEB.md)
 
 ### 推奨
 
+- [CI/CD](/skilldoc/technologies/CICD.md)
+- [監視](/skilldoc/technologies/MONITORING.md)
 - 認証
 - セキュリティ
-- デプロイ
-- 監視・アラート
 - Docker/Kubernetes
 - React/Next.js/Vue/Nuxt
 - TypeScript
-- API
 - データ構造
 - アルゴリズム
