@@ -21,8 +21,8 @@
 - 可読性
 - 拡張性
 - セキュリティ
-- テスト
-- 運用
+- [テスト](/skilldoc/technologies/TEST.md)
+- [運用](/skilldoc/technical_skills/operation/README.md)
 - [パフォーマンス](/skilldoc/technical_skills/performance/README.md)
 - [プロジェクト管理](/skilldoc/technical_skills/project_management/README.md)
 
