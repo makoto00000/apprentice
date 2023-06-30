@@ -266,18 +266,56 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    2. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) に設計のURLを提出し、メンターに連絡する
    3. メンターから設計についてのフィードバックを受け、設計をブラッシュアップする
 
-### Week 13-14: [オリジナルプロダクト①アプリケーション実装](skilldoc/technologies/ORIGINAL_PRODUCT.md)
+### Week 13-14: [オリジナルプロダクト①コア機能実装](/technologies/ORIGINAL_PRODUCT.md)
 
-期間：7/3(月)- 7/16(日)
+期間：7/3(月)- 7/16(日), 締切：7/16(日), 最終締切：8/27(日)
+
+1. Skill Doc を読む
+   1. [オリジナルプロダクト](/skilldoc/technologies/ORIGINAL_PRODUCT.md)
+   2. [コードの可読性](/skilldoc/technologies/READABILITY.md)
+2. QUEST を解く
+   1. [生成系 AI](/quest/technologies/generative_ai/GENERATIVE_AI.md)
+   2. [[可読性][Level2] 静的解析ツールを使うことができる](/quest/technologies/ruby/STATIC_ANALYSIS.md)(既出。復習用)
+   3. [[可読性][Level3] 読みやすいコードを書くことができる](/quest/technologies/readability/READABLE_CODE.md)
+3. 提出 QUEST を提出する
+   1. [オリジナルプロダクトのコア機能](/quest/technologies/original_product/CORE.md) を行う
+   2. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) に GitHub の URL を提出する
+   3. フィードバック会でメンターに画面共有で作成物を共有し、フィードバックをもらう
+4. ブログ記事を投稿する
 
 ### Week 15-16: [オリジナルプロダクト②インフラ構築](skilldoc/technologies/ORIGINAL_PRODUCT.md)
 
-期間：7/17(月)- 7/30(日)
+期間：7/17(月)- 7/30(日), 締切：7/30(日), 最終締切：9/17(日)
 
-### Week 17-18: [オリジナルプロダクト③機能拡張](skilldoc/technologies/ORIGINAL_PRODUCT.md)
+1. Skill Doc を読む
+   1. [オリジナルプロダクト](/skilldoc/technologies/ORIGINAL_PRODUCT.md)
+2. QUEST を解く
+3. 提出 QUEST を提出する
+   1. [オリジナルプロダクトのインフラ構築](/quest/technologies/original_product/INFRASTRUCTURE.md) を行う
+   2. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) にオリジナルプロダククトの URL を提出する (GitHub の URL ではないので注意)
+   3. フィードバック会でメンターに画面共有で作成物及びインフラ構成図を共有し、フィードバックをもらう
+4. ブログ記事を投稿する
 
-期間：7/31(月)- 8/13(日)
+### Week 17-18: [オリジナルプロダクト③MVP完成](skilldoc/technologies/ORIGINAL_PRODUCT.md)
+
+1. Skill Doc を読む
+   1. [オリジナルプロダクト](/skilldoc/technologies/ORIGINAL_PRODUCT.md)
+2. QUEST を解く
+3. 提出 QUEST を提出する
+   1. [オリジナルプロダクトの MVP](/quest/technologies/original_product/MVP.md) を行う
+   2. [1期生シート](https://docs.google.com/spreadsheets/d/1C_503tZJnw7BQI1J_IcXPwme6kaX5wNNt1PQgVMqUS0/edit?usp=sharing) にオリジナルプロダククトの URL を提出する
+   3. フィードバック会でメンターに画面共有で作成物を共有し、フィードバックをもらう
+4. ブログ記事を投稿する
+
+期間：7/31(月)- 8/13(日), 締切：8/13(日), 最終締切：10/8(日)
 
 ### Week 19-20: 1on1イベント準備
 
-期間：8/14(月)- 8/25(金)
+期間：8/14(月)- 8/25(金), 締切：8/25(金), 最終締切：10/20(金)
+
+1. Skill Doc を読む
+2. QUEST を解く
+3. 提出 QUEST を提出する
+   1. [ユーザーインタビュー]() を行う
+   2. [プレゼン準備]() を行う
+4. ブログ記事を投稿する
