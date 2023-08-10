@@ -298,6 +298,8 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 ### Week 17-18: [オリジナルプロダクト③MVP完成](skilldoc/technologies/ORIGINAL_PRODUCT.md)
 
+期間：7/31(月)- 8/13(日), 締切：8/13(日), 最終締切：10/8(日)
+
 1. Skill Doc を読む
    1. [オリジナルプロダクト](/skilldoc/technologies/ORIGINAL_PRODUCT.md)
 2. QUEST を解く
@@ -307,15 +309,11 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    3. フィードバック会でメンターに画面共有で作成物を共有し、フィードバックをもらう
 4. ブログ記事を投稿する
 
-期間：7/31(月)- 8/13(日), 締切：8/13(日), 最終締切：10/8(日)
 
-### Week 19-20: 1on1イベント準備
+### Week 19-20: アプレンティスシップドラフト準備
 
 期間：8/14(月)- 8/25(金), 締切：8/25(金), 最終締切：10/20(金)
 
-1. Skill Doc を読む
-2. QUEST を解く
-3. 提出 QUEST を提出する
-   1. [ユーザーインタビュー]() を行う
-   2. [プレゼン準備]() を行う
-4. ブログ記事を投稿する
+1. [ユーザーインタビュー](/quest/technologies/original_product/USER_INTERVIEW.md) を行う
+2. [プレゼン準備](/quest/technologies/original_product/PRESENTATION.md) を行う
+3. アプレンティスシップドラフトに参加する
