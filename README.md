@@ -309,11 +309,13 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
    3. フィードバック会でメンターに画面共有で作成物を共有し、フィードバックをもらう
 4. ブログ記事を投稿する
 
-
 ### Week 19-20: アプレンティスシップドラフト準備
 
 期間：8/14(月)- 8/25(金), 締切：8/25(金), 最終締切：10/20(金)
 
-1. [ユーザーインタビュー](/quest/technologies/original_product/USER_INTERVIEW.md) を行う
-2. [プレゼン準備](/quest/technologies/original_product/PRESENTATION.md) を行う
-3. アプレンティスシップドラフトに参加する
+1. オリジナルプロダクトが未完成の場合、完成させる
+   1. 自分が書いたコードや設計部分は全て説明できるようにしておく
+2. [ユーザーインタビュー](/quest/technologies/original_product/USER_INTERVIEW.md) を行う
+3. [プレゼン準備](/quest/technologies/original_product/PRESENTATION.md) を行う
+4. 自分が指名を受けた企業の会社情報に目を通す
+5. アプレンティスシップドラフトに参加する
