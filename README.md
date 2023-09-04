@@ -316,6 +316,14 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 1. オリジナルプロダクトが未完成の場合、完成させる
    1. 自分が書いたコードや設計部分は全て説明できるようにしておく
 2. [ユーザーインタビュー](/quest/technologies/original_product/USER_INTERVIEW.md) を行う
-3. [プレゼン準備](/quest/technologies/original_product/PRESENTATION.md) を行う
+3. [プレゼン準備](/quest/technologies/new_job/PRESENTATION.md) を行う
 4. 自分が指名を受けた企業の会社情報に目を通す
 5. アプレンティスシップドラフトに参加する
+
+### Week 21-：面接対策
+
+期間：8/28（月）-
+
+1. [面接対策](/quest/technologies/new_job/INTERVIEW.md) を行う
+2. [転職活動中の技術学習](/quest/technologies/new_job/LEARNING.md) を行う
+3. 選考状況について、各企業との面接結果が出たら（次の選考に進んだ、落ちた、内定が出た、辞退した、のいずれかが出たら）運営にメッセする
