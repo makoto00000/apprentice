@@ -1,7 +1,7 @@
 # Linux/Git,GitHub
 
 1. Skill Doc を読む
-   1. [ゴールから逆算して学ぶことができる](/skilldoc/GOAL.md)
+   1. [ゴールから逆算して学ぶことができる](/skilldoc/conceptual_skills/curiosity/GOAL.md)
    2. [Linux](/skilldoc/LINUX.md)
    3. [Git](/skilldoc/GIT.md)
 2. QUEST を解く
