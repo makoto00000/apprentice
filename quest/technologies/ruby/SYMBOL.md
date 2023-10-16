@@ -49,7 +49,7 @@ convert_currency(100, :usd, :jpy, conversion_rates)
 11000
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 def convert_currency(amount, source_currency, target_currency, conversion_rates)

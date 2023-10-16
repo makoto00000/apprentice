@@ -6,7 +6,7 @@
 
 ▼インプット
 
-```ruby
+```php
 x：整数
 y：整数
 
@@ -21,15 +21,15 @@ xとyの値が同じなら「x == y」
 
 ▼サンプル呼び出し
 
-```ruby
-greater(5, 4)
-greater(-50, -40)
-greater(10, 10)
+```php
+greater(5, 4);
+greater(-50, -40);
+greater(10, 10);
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 x > y
 x < y
 x == y
@@ -37,10 +37,11 @@ x == y
 
 ▼回答例
 
-```ruby
-def greater(x, y)
-  # 関数を完成させてください
-end
+```php
+function greater(x, y)
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 2. 電車の料金
@@ -49,7 +50,7 @@ end
 
 ▼インプット
 
-```ruby
+```php
 年齢 age が整数で与えられます。
 
 0 <= age <= 150
@@ -61,15 +62,15 @@ end
 
 ▼サンプル呼び出し
 
-```ruby
-train_fare(12)
-train_fare(6)
-train_fare(5)
+```php
+train_fare(12);
+train_fare(6);
+train_fare(5);
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 200
 100
 0
@@ -77,10 +78,11 @@ train_fare(5)
 
 ▼回答例
 
-```ruby
-def train_fare(age)
-  # 関数を完成させてください
-end
+```php
+function train_fare(age)
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 3. XOR
@@ -89,7 +91,7 @@ end
 
 ▼インプット
 
-```ruby
+```php
 x：ブーリアン値
 y：ブーリアン値
 ```
@@ -100,16 +102,16 @@ trueもしくはfalseを出力してください。
 
 ▼サンプル呼び出し
 
-```ruby
-xor(true, true)
-xor(true, false)
-xor(false, true)
-xor(false, false)
+```php
+xor(true, true);
+xor(true, false);
+xor(false, true);
+xor(false, false);
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 false
 true
 true
@@ -118,8 +120,9 @@ false
 
 ▼回答例
 
-```ruby
-def xor(x, y)
-  # 関数を完成させてください
-end
+```php
+function xor(x, y)
+{
+    # 関数を完成させてください
+}
 ```

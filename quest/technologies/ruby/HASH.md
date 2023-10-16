@@ -39,7 +39,7 @@ print_capitals({ '日本' => '東京', 'アメリカ' => 'ワシントンD.C.' }
 アメリカの首都はワシントンD.C.です
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 def print_capitals(capitals)

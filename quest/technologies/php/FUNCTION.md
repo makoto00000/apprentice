@@ -1,4 +1,4 @@
-# メソッドを自作し使うことができる
+# 関数を自作し使うことができる
 
 ## 1. Hello World
 
@@ -14,22 +14,23 @@
 
 ▼サンプル呼び出し
 
-```ruby
-hello()
+```php
+hello();
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 Hello World
 ```
 
 ▼回答例
 
-```ruby
-def hello
-  # 関数を完成させてください
-end
+```php
+function hello()
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 2. 挨拶
@@ -38,7 +39,7 @@ end
 
 ▼インプット
 
-```ruby
+```php
 name：文字列
 ```
 
@@ -48,20 +49,21 @@ name：文字列
 
 ▼サンプル呼び出し
 
-```ruby
-greeting('渡辺')
+```php
+greeting('渡辺');
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 おはよう、渡辺！
 ```
 
 ▼回答例
 
-```ruby
-def greeting(name)
-  # 関数を完成させてください
-end
+```php
+function greeting(name)
+{
+    # 関数を完成させてください
+}
 ```

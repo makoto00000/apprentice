@@ -14,13 +14,13 @@
 
 ▼サンプル呼び出し
 
-```ruby
-hello()
+```php
+hello();
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 こんにちは！
 こんにちは！
 ...
@@ -29,10 +29,11 @@ hello()
 
 ▼回答例
 
-```ruby
-def hello
-  # 関数を完成させてください
-end
+```php
+function hello()
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 2. 羊
@@ -48,7 +49,7 @@ end
 
 ▼インプット
 
-```ruby
+```php
 n：整数
 
 1 <= n <= 100
@@ -60,13 +61,13 @@ n：整数
 
 ▼サンプル呼び出し
 
-```ruby
-sheep(3)
+```php
+sheep(3);
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 羊が1匹
 羊が2匹
 羊が3匹
@@ -74,10 +75,11 @@ sheep(3)
 
 ▼回答例
 
-```ruby
-def sheep(n)
-  # 関数を完成させてください
-end
+```php
+function sheep(n)
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 3. 総和
@@ -94,22 +96,23 @@ end
 
 ▼サンプル呼び出し
 
-```ruby
-sum_1_100()
+```php
+sum_1_100();
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 5050
 ```
 
 ▼回答例
 
-```ruby
-def sum_1_100
-  # 関数を完成させてください
-end
+```php
+function sum_1_100()
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 4. 総和
@@ -118,7 +121,7 @@ end
 
 ▼インプット
 
-```ruby
+```php
 x：整数
 y：整数
 
@@ -131,22 +134,23 @@ x から y までの足し算の結果を出力してください。
 
 ▼サンプル呼び出し
 
-```ruby
-sum(10, 80)
+```php
+sum(10, 80);
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 3195
 ```
 
 ▼回答例
 
-```ruby
-def sum(x, y)
-  # 関数を完成させてください
-end
+```php
+function sum(x, y)
+{
+    # 関数を完成させてください
+}
 ```
 
 ## 5. フィボナッチ数列(advanced)
@@ -161,7 +165,7 @@ f(n) = f(n-1) + f(n-2) 円   (n ≧ 2)
 
 ▼インプット
 
-```ruby
+```php
 n：整数
 
 1 <= n <= 30
@@ -173,19 +177,19 @@ n：整数
 
 ▼サンプル呼び出し
 
-```ruby
-fibonacci(0)
-fibonacci(1)
-fibonacci(2)
-fibonacci(3)
-fibonacci(4)
-fibonacci(7)
-fibonacci(30)
+```php
+fibonacci(0);
+fibonacci(1);
+fibonacci(2);
+fibonacci(3);
+fibonacci(4);
+fibonacci(7);
+fibonacci(30);
 ```
 
 ▼サンプルアウトプット
 
-```ruby
+```php
 0
 1
 1
@@ -197,8 +201,9 @@ fibonacci(30)
 
 ▼回答例
 
-```ruby
-def fibonacci(n)
-  # 関数を完成させてください
-end
+```php
+function fibonacci(n)
+{
+    # 関数を完成させてください
+}
 ```
