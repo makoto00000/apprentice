@@ -30,7 +30,7 @@ print_names(['上田', '田仲', '堀田'])
 3. 堀田
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 def print_names(names)
@@ -67,7 +67,7 @@ print squared_numbers
 [25, 49, 100]
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 def square(numbers)
@@ -104,7 +104,7 @@ print even_numbers
 [2, 4, 6, 8, 10]
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 def select_even_numbers(numbers)

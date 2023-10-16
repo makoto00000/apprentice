@@ -30,7 +30,7 @@ puts vending_machine.press_button
 cider
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 class VendingMachine
@@ -66,7 +66,7 @@ puts vending_machine.press_manufacturer_name
 サントリー
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 class VendingMachine
@@ -115,7 +115,7 @@ cider
 vending_machine.press_manufacturer_name #=> private method 'press_manufacturer_name' called for ... (NoMethodError)
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 class VendingMachine
@@ -157,7 +157,7 @@ puts vending_machine.press_button(cola)
 cola
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 class VendingMachine
@@ -209,7 +209,7 @@ cider
 hot cup coffee
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 class VendingMachine
@@ -220,11 +220,11 @@ class # アイテムに関する責務のクラスを作成してください
 end
 
 # 飲み物に関する責務のクラスを継承を利用して作成してください
-class #{飲み物クラス} < #{アイテムクラス} 
+class #{飲み物クラス} < #{アイテムクラス}
 end
 
 # カップコーヒーに関する責務のクラスを継承を利用して作成してください
-class #{カップコーヒークラス} < #{アイテムクラス} 
+class #{カップコーヒークラス} < #{アイテムクラス}
 end
 ```
 
@@ -275,7 +275,7 @@ hot cup coffee
 potato chips
 ```
 
-▼回答例_Ruby
+▼回答例
 
 ```ruby
 class VendingMachine
@@ -286,15 +286,15 @@ class # アイテムに関する責務のクラスを作成してください
 end
 
 # 飲み物に関する責務のクラスを継承を利用して作成してください
-class #{飲み物クラス} < #{アイテムクラス} 
+class #{飲み物クラス} < #{アイテムクラス}
 end
 
 # カップコーヒーに関する責務のクラスを継承を利用して作成してください
-class #{カップコーヒークラス} < #{アイテムクラス} 
+class #{カップコーヒークラス} < #{アイテムクラス}
 end
 
 # スナック菓子に関する責務のクラスを継承を利用して作成してください
-class #{スナック菓子クラス} < #{アイテムクラス} 
+class #{スナック菓子クラス} < #{アイテムクラス}
 end
 ```
 
