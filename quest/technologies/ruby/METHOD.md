@@ -29,6 +29,7 @@ Hello World
 ```ruby
 def hello
   # 関数を完成させてください
+  puts 'Hello World'
 end
 ```
 
@@ -63,5 +64,6 @@ greeting('渡辺')
 ```ruby
 def greeting(name)
   # 関数を完成させてください
+  puts "おはよう、#{name}!"
 end
 ```

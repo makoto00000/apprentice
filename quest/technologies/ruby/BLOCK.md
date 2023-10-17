@@ -35,6 +35,9 @@ print_names(['上田', '田仲', '堀田'])
 ```ruby
 def print_names(names)
   # 関数を完成させてください
+  lists.each.with_index(1) do |name, index|
+    puts "#{index}:#{name}"
+  end
 end
 ```
 
@@ -72,6 +75,7 @@ print squared_numbers
 ```ruby
 def square(numbers)
   # 関数を完成させてください
+  numbers.map { |n| n * n }
 end
 ```
 
@@ -109,5 +113,6 @@ print even_numbers
 ```ruby
 def select_even_numbers(numbers)
   # 関数を完成させてください
+  numbers.select { |n| n % 2 == 0}
 end
 ```

@@ -32,6 +32,9 @@ hello()
 ```ruby
 def hello
   # 関数を完成させてください
+  for i in 1..100 do
+    puts 'こんにちは!'
+  end
 end
 ```
 
@@ -77,6 +80,9 @@ sheep(3)
 ```ruby
 def sheep(n)
   # 関数を完成させてください
+  for i in 1..n do
+    puts "羊が#{i}匹"
+  end
 end
 ```
 
@@ -109,6 +115,11 @@ sum_1_100()
 ```ruby
 def sum_1_100
   # 関数を完成させてください
+  total = 0
+  for i in 1..100 do
+    total += i
+  end
+  puts total
 end
 ```
 
@@ -146,6 +157,11 @@ sum(10, 80)
 ```ruby
 def sum(x, y)
   # 関数を完成させてください
+  total = 0
+  for i in x..y do
+    total += i
+  end
+  puts total
 end
 ```
 

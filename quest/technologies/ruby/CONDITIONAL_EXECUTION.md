@@ -40,6 +40,13 @@ x == y
 ```ruby
 def greater(x, y)
   # 関数を完成させてください
+  if x > y
+    puts "x > y"
+  elsif x < y
+    puts "x < y"
+  else
+    puts "x == y"
+  end
 end
 ```
 
@@ -80,6 +87,13 @@ train_fare(5)
 ```ruby
 def train_fare(age)
   # 関数を完成させてください
+  if age >= 12
+    puts 200
+  elsif age >= 6 && age < 12
+    puts 100
+  elsif age < 6
+    puts 0
+  end
 end
 ```
 
@@ -121,5 +135,10 @@ false
 ```ruby
 def xor(x, y)
   # 関数を完成させてください
+  if (x && y) || (!x && !y)
+    puts false
+  else
+    puts true
+  end
 end
 ```

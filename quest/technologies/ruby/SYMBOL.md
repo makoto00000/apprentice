@@ -10,6 +10,12 @@ Rubyにおけるシンボルについて
 
 をプログラミング初心者にわかるように説明してください。
 
+```
+シンボルは見かけ上文字列であるが、ソース上では整数として扱われる。
+クラス名、メソッド名、変数名、定数名などはシンボルとして管理されている。
+シンボルは非破壊的であるため、変更ができない。文字列は定義するたびに内部的な情報は異なるので、違うものとして扱われてしまうが（メモリも消費する）シンボルは必ず同一。
+```
+
 ## 2. 両替
 
 引数として金額、変換元の通貨、変換先の通貨を受け取り、変換後の金額を出力する両替関数を作成します。
@@ -54,5 +60,6 @@ convert_currency(100, :usd, :jpy, conversion_rates)
 ```ruby
 def convert_currency(amount, source_currency, target_currency, conversion_rates)
   # 関数を完成させてください
+  puts (amount * conversion_rates[target_currency] / conversion_rates[source_currency]).to_i
 end
 ```
