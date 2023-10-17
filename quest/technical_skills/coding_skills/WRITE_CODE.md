@@ -43,3 +43,27 @@ fizz_buzz()
 2. 3かつ5の倍数の時「FizzBuzz」と出力する
 3. 3の倍数の時「Fizz」と出力する
 4. 5の倍数の時「Buzz」と出力する
+
+
+## 回答
+``` ruby
+def fizz_buzz
+  # 数字を1から100まで順番に出力する
+  for i in 1..100 do
+    # 3かつ5の倍数の時「FizzBuzz」と出力する
+    if i % 3 == 0 && i % 5 == 0
+      print 'FizzBuzz,'
+    # 3の倍数の時「Fizz」と出力する
+    elsif i % 3 == 0
+      print 'Fizz,'
+    # 5の倍数の時「Buzz」と出力する
+    elsif i % 5 == 0
+      print 'Buzz,'
+    else
+      print "#{i},"
+    end
+  end
+end
+
+fizz_buzz
+```
