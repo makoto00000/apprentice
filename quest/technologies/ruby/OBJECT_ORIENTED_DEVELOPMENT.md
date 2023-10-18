@@ -71,6 +71,14 @@ puts vending_machine.press_manufacturer_name
 ```ruby
 class VendingMachine
   # クラスを完成させてください
+  def initialize(manufacturer_name)
+  @manufacturer_name = manufacturer_name
+  end
+
+  def press_manufacturer_name
+    print @manufacturer_name
+  end
+
 end
 ```
 
@@ -120,6 +128,28 @@ vending_machine.press_manufacturer_name #=> private method 'press_manufacturer_n
 ```ruby
 class VendingMachine
   # クラスを完成させてください
+    def initialize(manufacturer_name)
+    @manufacturer_name = manufacturer_name
+    @deposit_coin = 0
+  end
+
+  def press_button
+    if @deposit_coin > 100
+      @deposit_coin -= 100
+      print 'cider'
+    end
+  end
+
+  def deposit_coin(coin)
+    if coin == 100
+      @deposit_coin += coin
+    end
+  end
+
+  private
+  def press_manufacturer_name
+    print @manufacturer_name
+  end
 end
 ```
 
@@ -162,9 +192,37 @@ cola
 ```ruby
 class VendingMachine
   # クラスを完成させてください
+  def initialize(manufacturer_name)
+    @manufacturer_name = manufacturer_name
+    @deposit_coin = 0
+  end
+
+  def press_button(item)
+    if @deposit_coin > item.price
+      @deposit_coin -= item.price
+      print item.name
+    end
+  end
+
+  def deposit_coin(coin)
+    if coin == 100
+      @deposit_coin += coin
+    end
+  end
+
+  private
+  def press_manufacturer_name
+    print @manufacturer_name
+  end
 end
 
-class # アイテムに関するクラスを作成してください
+# アイテムに関するクラスを作成してください
+class Item
+  attr_accessor :name, :price
+  def initialize(name, price)
+    @name = name
+    @price = price
+  end
 end
 ```
 
@@ -189,8 +247,10 @@ press_button メソッドを実行すると、与えられた引数に応じた�
 ▼サンプル呼び出し
 
 ```ruby
-hot_cup_coffee = #{カップコーヒーのクラス}.new('hot');
-cider = #{飲み物のクラス}.new('cider')
+# hot_cup_coffee = #{カップコーヒーのクラス}.new('hot');
+# cider = #{飲み物のクラス}.new('cider')
+hot_cup_coffee = CupItem.new('hot cup coffee', 100, 'hot')
+cider = Item.new('cider', 100)
 vending_machine = VendingMachine.new('サントリー')
 vending_machine.deposit_coin(100)
 vending_machine.deposit_coin(100)
@@ -214,17 +274,64 @@ hot cup coffee
 ```ruby
 class VendingMachine
   # クラスを完成させてください
+  def initialize(manufacturer_name)
+    @manufacturer_name = manufacturer_name
+    @deposit_coin = 0
+    @cup = 0
+  end
+
+  def press_button(item)
+    if @deposit_coin >= item.price
+      if (item.class == CupItem && @cup != 0) || item.class != CupItem
+        if item.class == CupItem
+          @cup -= 1
+        end
+        @deposit_coin -= item.price
+        print item.name
+      end
+    end
+  end
+
+  def deposit_coin(coin)
+    if coin == 100
+      @deposit_coin += coin
+    end
+  end
+
+  def add_cup(cup)
+    @cup += cup
+  end
+
+  private
+  def press_manufacturer_name
+    print @manufacturer_name
+  end
 end
 
-class # アイテムに関する責務のクラスを作成してください
+# アイテムに関する責務のクラスを作成してください
+class Item
+  attr_accessor :name, :price
+  def initialize(name, price)
+    @name = name
+    @price = price
+  end
 end
 
 # 飲み物に関する責務のクラスを継承を利用して作成してください
-class #{飲み物クラス} < #{アイテムクラス}
+#{飲み物クラス} < #{アイテムクラス}
+class DrinkItem
+  def initialize(name, price)
+    super(name, price)
+  end
 end
 
 # カップコーヒーに関する責務のクラスを継承を利用して作成してください
-class #{カップコーヒークラス} < #{アイテムクラス}
+#{カップコーヒークラス} < #{アイテムクラス}
+class CupItem < Item
+  def initialize(name, price, temperature)
+    super(name, price)
+    @temperature = temperature
+  end
 end
 ```
 
@@ -247,9 +354,13 @@ press_button メソッドを実行すると、与えられた引数に応じた�
 ▼サンプル呼び出し
 
 ```ruby
-hot_cup_coffee = #{カップコーヒーのクラス}.new('hot');
-cider = #{飲み物のクラス}.new('cider')
-snack = #{スナック菓子のクラス}.new
+# hot_cup_coffee = #{カップコーヒーのクラス}.new('hot');
+# cider = #{飲み物のクラス}.new('cider')
+# snack = #{スナック菓子のクラス}.new
+
+hot_cup_coffee = CupItem.new('hot cup coffee', 100, 'hot')
+cider = DrinkItem.new('cider', 100)
+snack = SnackItem.new('potato chips', 150)
 vending_machine = VendingMachine.new('サントリー')
 vending_machine.deposit_coin(100)
 vending_machine.deposit_coin(100)
@@ -280,21 +391,72 @@ potato chips
 ```ruby
 class VendingMachine
   # クラスを完成させてください
+  def initialize(manufacturer_name)
+    @manufacturer_name = manufacturer_name
+    @deposit_coin = 0
+    @cup = 0
+  end
+
+  def press_button(item)
+    if @deposit_coin >= item.price
+      if (item.class == CupItem && @cup != 0) || item.class != CupItem
+        if item.class == CupItem
+          @cup -= 1
+        end
+        @deposit_coin -= item.price
+        print item.name
+      end
+    end
+  end
+
+  def deposit_coin(coin)
+    if coin == 100
+      @deposit_coin += coin
+    end
+  end
+
+  def add_cup(cup)
+    @cup += cup
+  end
+
+  private
+  def press_manufacturer_name
+    print @manufacturer_name
+  end
 end
 
-class # アイテムに関する責務のクラスを作成してください
+# アイテムに関する責務のクラスを作成してください
+class Item
+  attr_accessor :name, :price
+  def initialize(name, price)
+    @name = name
+    @price = price
+  end
 end
 
 # 飲み物に関する責務のクラスを継承を利用して作成してください
-class #{飲み物クラス} < #{アイテムクラス}
+#{飲み物クラス} < #{アイテムクラス}
+class DrinkItem
+  def initialize(name, price)
+    super(name, price)
+  end
 end
 
 # カップコーヒーに関する責務のクラスを継承を利用して作成してください
-class #{カップコーヒークラス} < #{アイテムクラス}
+#{カップコーヒークラス} < #{アイテムクラス}
+class CupItem < Item
+  def initialize(name, price, temperature)
+    super(name, price)
+    @temperature = temperature
+  end
 end
 
 # スナック菓子に関する責務のクラスを継承を利用して作成してください
-class #{スナック菓子クラス} < #{アイテムクラス}
+#{スナック菓子クラス} < #{アイテムクラス}
+class SnackItem < Item
+  def initialize(name, price)
+    super(name, price)
+  end
 end
 ```
 
@@ -306,3 +468,4 @@ end
 - 回答例やサンプルインプット、サンプルアウトプットも見ずに作成してください
 
 何も見ずに自分で一から設計することで、オブジェクト指向の理解をより確かなものにすることが狙いです。トライしてみてください。
+
