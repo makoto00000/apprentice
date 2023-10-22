@@ -5,105 +5,33 @@ require_relative "../player/dealer.rb"
 require_relative "../card/deck.rb"
 
 class Game
-  def initialize
+  def initialize(config)
     @deck = Deck.new
-    @player = Player.new("あなた")
-    @players = [@player]
+    @player = config.player
+    @players = [@player, *config.cpu_players]
     @dealer = Dealer.new("ディーラー")
-    @player_input = false
-    self.game_start
-  end
-  # ゲーム実行メソッド
-  def game_start
-    puts "ブラックジャックを開始します。"
-    # プレイヤーの初期行動
-    self.player_start(@player)
-    # ディーラーの初期行動
-    self.dealer_start(@dealer)
-    # プレイヤーのターン
-    self.player_turn(@player)
-    # ディーラーのターン
-    self.dealer_turn(@dealer)
-    # 勝敗判定
-    self.jadge(@players, @dealer)
-    puts "ブラックジャックを終了します。"
+    @all_players = [@player, *config.cpu_players, @dealer]
+    game_start()
   end
 
   private
-    # カードを引くメソッド
-    def draw_card(player)
-      player.draw_card(@deck)
-    end
+    # ゲーム実行メソッド
+    def game_start
+      puts "ブラックジャックを開始します。"
 
-    # オープンしたカードを公開するメソッド
-    def open_card(player, i)
-      puts "#{player.name}の引いたカードは#{player.hand_cards[i].suit}の#{player.hand_cards[i].num}です。"
-    end
-
-    # 現在の得点を表示するメソッド
-    def open_score(player)
-      "#{player.name}の現在の得点は#{player.score}です。"
-    end
-
-    # プレイヤーの初期行動をまとめたメソッド
-    def player_start(player)
-      self.draw_card(player)
-      self.open_card(player, 0)
-      self.draw_card(player)
-      self.open_card(player, 1)
-    end
-
-    # ディーラーの初期行動をまとめたメソッド
-    def dealer_start(dealer)
-      self.draw_card(dealer)
-      self.open_card(dealer, 0)
-      self.draw_card(dealer)
-      puts "ディーラーの引いた2枚目のカードはわかりません。"
-    end
-
-    # プレイヤーのターンを実行するメソッド
-    def player_turn(player)
-      counter = 1
-      loop do
-        puts "#{open_score(player)} カードを引きますか？（Y / N）"
-        case gets.chomp
-        when "Y" # Yが選択されたとき
-          counter += 1
-          draw_card(player)
-          open_card(player, counter)
-
-          # バーストしたときの処理
-          if player.bust?
-            puts "#{open_score(player)} バーストしました。"
-            break
-          end
-        when "N" # Nが選択されたとき
-          break
-        else
-          puts "(Y / N)で入力してください"
-        end
+      # プレイヤーの初期行動
+      @all_players.each do |player|
+        player&.player_start(@deck)
       end
-    end
 
-    # ディーラーのターンを実行するメソッド
-    def dealer_turn(dealer)
-      # 2枚目のカードを公開
-      puts "#{dealer.name}の引いた2枚目のカードは#{dealer.hand_cards[1].suit}の#{dealer.hand_cards[1].num}でした。"
-      puts open_score(dealer)
-
-      # 得点が17以上となるまでカードを引く
-      counter = 1
-      while dealer.score < 17 do
-        counter += 1
-        self.draw_card(dealer)
-        self.open_card(dealer, counter)
-        puts open_score(dealer)
-        # バーストしたときの処理
-        if dealer.bust?
-          puts "バーストしました。"
-          break
-        end
+      # プレイヤーのターン
+      @all_players.each do |player|
+        player&.player_action(@deck)
       end
+
+      # 勝敗判定
+      jadge(@players, @dealer)
+      puts "ブラックジャックを終了します。"
     end
 
     # 勝敗判定をするメソッド
