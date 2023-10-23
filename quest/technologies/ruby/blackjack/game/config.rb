@@ -3,11 +3,14 @@
 require_relative "../player/cpu_player.rb"
 
 class Config
-  attr_reader :player, :cpu_players
+  attr_reader :player_name, :cpu_player_names, :is_doubledown, :is_split, :is_surrender
   def initialize
-    @player
-    @cpu_players = []
-    exec_onfig()
+    @player_name
+    @cpu_player_names = []
+    @is_doubledown
+    @is_split
+    @is_surrender
+    exec_config()
   end
 
   # 設定を実行するメソッド
@@ -15,6 +18,7 @@ class Config
     puts "ゲームの設定を行います。"
     config_player()
     config_cpu_player()
+    config_rules()
     puts "ゲームの設定が完了しました。"
   end
 
@@ -24,8 +28,7 @@ class Config
       puts "あなたの名前を入力してください。"
       name = gets.chomp
       name = "名無しさん" if name == ""
-      @player = Player.new(name)
-      puts "ようこそ#{@player.name}さん!"
+      @player_name = name
     end
 
     # CPUに関する設定実行メソッド
@@ -52,11 +55,34 @@ class Config
         end
         names.map!.with_index { |name, i| name == "" ? "CPU #{i + 1}" : name }
         names.each do |name|
-          @cpu_players << CpuPlayer.new(name)
+          @cpu_player_names << name
         end
-        puts "CPU:#{@cpu_players.map { |cpu| cpu.name }}を入れてゲームを実行します。"
+        puts "CPU:#{@cpu_player_names.map { |name| name }}を入れてゲームを実行します。"
       else
         puts "#CPUなしでゲームを実行します。"
       end
+    end
+
+    def config_rules
+      puts "追加ルールの設定を行います。"
+      rules = %W[ダブルダウン スプリット サレンダー]
+      is_rules = []
+      rules.each do |rule|
+        loop do
+          puts "#{rule}を追加しますか( Y / N )"
+          select = gets.chomp
+          case select
+          when "Y"
+            is_rules << true
+            break
+          when "N"
+            is_rules << false
+            break
+          else
+            puts "( Y / N )で入力してください"
+          end
+        end
+      end
+      @is_doubledown, @is_split, @is_surrender = is_rules
     end
 end

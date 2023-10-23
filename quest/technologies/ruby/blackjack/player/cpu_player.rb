@@ -3,10 +3,11 @@
 require_relative "./player.rb"
 
 class CpuPlayer < Player
+  # CPUのターンを実行するメソッド（player_actionをオーバーライド）
   def player_action(deck)
     # 得点が17以上となるまでカードを引く
     counter = 1
-    while self.score < 17 do
+    while isDraw? do
       counter += 1
       draw_card(deck)
       open_card(counter)
@@ -18,4 +19,10 @@ class CpuPlayer < Player
       end
     end
   end
+
+  private
+    # カードを引き続けるか判定するboolean
+    def isDraw?
+      @score <= 17
+    end
 end
