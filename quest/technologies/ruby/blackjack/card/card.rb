@@ -9,7 +9,7 @@ class Card
     @suit = suit
     @num = num
     @score
-    self.calc_score # カードの得点付けはここでしか実行しない
+    calc_score() # カードの得点付けはここでしか実行しない
   end
 
   # Aの得点を11で計算したときにバーストする場合実行

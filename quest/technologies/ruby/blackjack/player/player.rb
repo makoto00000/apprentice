@@ -4,42 +4,27 @@ require_relative "../card/deck.rb"
 require_relative "../card/card.rb"
 
 class Player
-  attr_reader :name, :score, :hand_cards
+  attr_reader :name, :config, :score, :is_surrender, :is_doubledown
+  # control_playerクラスのselect_splitメソッド内で変更を加えるため↓
+  attr_accessor :hand_cards, :is_split
   def initialize(name)
     @name = name
     @score = 0
     @hand_cards = []
+    @is_surrender = false
+    @is_doubledown = false
+    @is_split = false
   end
 
-  # プレイヤーの初期行動をまとめたメソッド
+  # 初期行動をまとめたメソッド
   def player_start(deck)
-    self.draw_card(deck)
-    self.open_card(0)
-    self.draw_card(deck)
-    self.open_card(1)
+    2.times { draw_card(deck) }
+    for i in 0..1 do
+      open_card(i)
+    end
   end
 
-  # プレイヤーのターンを進行するメソッド
-  def player_action(deck)
-    counter = 1
-    loop do
-      puts "#{open_score} カードを引きますか？（Y / N）"
-      case gets.chomp
-      when "Y" # Yが選択されたとき
-        counter += 1
-        draw_card(deck)
-        open_card(counter)
-        # バーストしたときの処理
-        if bust?
-          puts "#{open_score} バーストしました。"
-          break
-        end
-      when "N" # Nが選択されたとき
-        break
-      else
-        puts "(Y / N)で入力してください"
-      end
-    end
+  def player_action # 各子クラスでオーバーライド
   end
 
   # バースト判定用boolean
@@ -62,6 +47,7 @@ class Player
 
     # 現在の得点を表示するメソッド
     def open_score
+      calc_score
       "#{@name}の現在の得点は#{@score}です。"
     end
 

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Dealer < Player
-  # ディーラーの初期行動をまとめたメソッド（player_startをオーバーライド）
+  # ディーラー独自の初期行動をまとめたメソッド（player_startをオーバーライド）
   def player_start(deck)
     draw_card(deck)
     open_card(0)
@@ -16,7 +16,7 @@ class Dealer < Player
     puts open_score
     # 得点が17以上となるまでカードを引く
     counter = 1
-    while self.score < 17 do
+    while isDraw? do
       counter += 1
       draw_card(deck)
       open_card(counter)
@@ -31,7 +31,7 @@ class Dealer < Player
 
   private
     # カードを引き続けるか判定するboolean
-    def draw?
+    def isDraw?
       @score <= 17
     end
 end

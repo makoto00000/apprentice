@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "./card.rb"
-
+# 現状、デッキからカードがなくなることを想定していないため、エラーとなる。
 class Deck
   attr_reader :cards
   def initialize
