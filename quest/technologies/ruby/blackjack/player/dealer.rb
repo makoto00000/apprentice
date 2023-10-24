@@ -3,9 +3,8 @@
 class Dealer < Player
   # ディーラー独自の初期行動をまとめたメソッド（player_startをオーバーライド）
   def player_start(deck)
-    draw_card(deck)
+    2.times { draw_card(deck) }
     open_card(0)
-    draw_card(deck)
     puts "ディーラーの引いた2枚目のカードはわかりません。"
   end
 

@@ -2,9 +2,9 @@
 
 class ControlPlayer < Player
   attr_accessor :all_players
-  def initialize(name, config)
-    super(name)
+  def initialize(config)
     @config = config # Configクラスを受け取る
+    super(@config.player_name)
     @all_players # Gameクラスinitializeの中で値を入れる
   end
 
