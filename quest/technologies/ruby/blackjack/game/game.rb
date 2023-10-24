@@ -11,15 +11,15 @@ class Game
   attr_reader :all_players
   def initialize(config)
     @deck = Deck.new
-    @control_player = ControlPlayer.new(config.player_name, config)
+    @control_player = ControlPlayer.new(config)
     cpu_players = []
-    config.cpu_player_names.map do |name|
+    config.cpu_player_names.each do |name|
       cpu_players << CpuPlayer.new(name)
     end
     @dealer = Dealer.new("ディーラー")
     @all_players = [@control_player, *cpu_players, @dealer]
     @control_player.all_players = @all_players
-    game_start()
+    game_start() # ゲーム実行
   end
 
   private

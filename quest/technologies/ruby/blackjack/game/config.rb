@@ -10,6 +10,7 @@ class Config
     @is_doubledown
     @is_split
     @is_surrender
+
     exec_config()
   end
 
