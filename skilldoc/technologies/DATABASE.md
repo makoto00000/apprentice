@@ -10,11 +10,11 @@
 
 ## Level 1
 
-- [ ] [データベース関連の基本的な用語を説明できる](/quest/technologies/database/BASIC.md)
+- [x] [データベース関連の基本的な用語を説明できる](/quest/technologies/database/BASIC.md)
 
 ## Level 2
 
-- [ ] [データベース設計の流れを説明できる](/quest/technologies/database/FLOW.md)
+- [x] [データベース設計の流れを説明できる](/quest/technologies/database/FLOW.md)
 - [ ] [エンティティを定義できる](/quest/technologies/database/ENTITY.md)
 - [ ] [データベースを正規化できる](/quest/technologies/database/NORMALIZATION.md)
 - [ ] [ER 図を書くことができる](/quest/technologies/database/ER_DIAGRAM.md)
