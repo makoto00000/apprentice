@@ -1,11 +1,12 @@
 # データベース/SQL
 
 1. Skill Doc を読む
-   1. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/skilldoc/human_skills/communication/DOCUMENTATION.md)
-   2. [データベース](/skilldoc/technologies/DATABASE.md)
-   3. [SQL](/skilldoc/technologies/SQL.md)
-   4. [拡張性](/skilldoc/technical_skills/scalability/README.md)
-   5. [パフォーマンス](/skilldoc/technical_skills/performance/README.md)
+   1. [[やりきる力][Level2] 納期を守ることができる](/skilldoc/conceptual_skills/grit/DEADLINE.md)
+   2. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/skilldoc/human_skills/communication/DOCUMENTATION.md)
+   3. [データベース](/skilldoc/technologies/DATABASE.md)
+   4. [SQL](/skilldoc/technologies/SQL.md)
+   5. [拡張性](/skilldoc/technical_skills/scalability/README.md)
+   6. [パフォーマンス](/skilldoc/technical_skills/performance/README.md)
 2. QUEST を解く
    1. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/quest/human_skills/communication/DOCUMENTATION.md)
    2. [[データベース][Level1] データベース関連の基本的な用語を説明できる](/quest/technologies/database/BASIC.md)
