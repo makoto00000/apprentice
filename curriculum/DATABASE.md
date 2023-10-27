@@ -1,0 +1,38 @@
+# データベース/SQL
+
+1. Skill Doc を読む
+   1. [[やりきる力][Level2] 納期を守ることができる](/skilldoc/conceptual_skills/grit/DEADLINE.md)
+   2. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/skilldoc/human_skills/communication/DOCUMENTATION.md)
+   3. [データベース](/skilldoc/technologies/DATABASE.md)
+   4. [SQL](/skilldoc/technologies/SQL.md)
+   5. [拡張性](/skilldoc/technical_skills/scalability/README.md)
+   6. [パフォーマンス](/skilldoc/technical_skills/performance/README.md)
+2. QUEST を解く
+   1. [[コミュニケーション][Level2] 読みやすいドキュメントを書ける](/quest/human_skills/communication/DOCUMENTATION.md)
+   2. [[データベース][Level1] データベース関連の基本的な用語を説明できる](/quest/technologies/database/BASIC.md)
+   3. [[SQL][Level1] データベースを作成・指定・削除できる](/quest/technologies/sql/DATABASE.md)
+   4. [[SQL][Level1] ユーザーを作成・権限付与・削除できる](/quest/technologies/sql/USER.md)
+   5. [[SQL][Level1] テーブルを作成・修正・削除できる](/quest/technologies/sql/TABLE.md)
+   6. [[SQL][Level1] データを登録・検索・更新・削除できる](/quest/technologies/sql/DATA.md)
+   7. [[SQL][Level2] データを検索できる](/quest/technologies/sql/SELECT.md)
+   8. [[SQL][Level2] データを絞り込むことができる](/quest/technologies/sql/WHERE.md)
+   9. [[SQL][Level2] 検索結果の並び替えができる](/quest/technologies/sql/ORDER.md)
+   10. [[SQL][Level2] データを集計できる](/quest/technologies/sql/AGGREGATE.md)
+   11. [[SQL][Level2] データをグルーピングできる](/quest/technologies/sql/GROUP.md)
+   12. [[SQL][Level2] テーブルを結合できる](/quest/technologies/sql/JOIN.md)
+   13. [[SQL][Level2] スタイルガイドに則ってクエリを書ける](/quest/technologies/sql/STYLE_GUIDE.md)
+   14. [[SQL][Level3] サブクエリを使うことができる](/quest/technologies/sql/SUBQUERY.md)(advanced)
+   15. [[SQL][Level3] 条件分岐ができる](/quest/technologies/sql/CASE.md)(advanced)
+   16. [[SQL][Level3] 実行計画を確認できる](/quest/technologies/sql/EXPLAIN.md)(advanced)
+   17. [[SQL][Level3] N＋1問題の対策ができる](/quest/technologies/sql/NONE.md)(advanced)
+   18. [[データベース][Level2] データベース設計の流れを説明できる](/quest/technologies/database/FLOW.md)
+   19. [[データベース][Level2] エンティティを定義できる](/quest/technologies/database/ENTITY.md)
+   20. [[データベース][Level2] データベースを正規化できる](/quest/technologies/database/NORMALIZATION.md)
+   21. [[データベース][Level2] ER 図を書くことができる](/quest/technologies/database/ER_DIAGRAM.md)
+   22. [[データベース][Level2] テーブルを定義できる](/quest/technologies/database/TABLE_DEFINITION.md)
+   23. [[データベース][Level2] インデックスを設定できる](/quest/technologies/database/INDEX.md)
+   24. [[データベース][Level3] トランザクションについて説明できる](/quest/technologies/database/TRANSACTION.md)(advanced)
+   25. [[データベース][Level3] 同時実行制御について説明できる](/quest/technologies/database/LOCK.md)(advanced)
+3. 提出 QUEST を提出する
+   1. [インターネットTV](/quest/technologies/database/INTERNET_TV.md)
+4. ブログ記事を投稿する
