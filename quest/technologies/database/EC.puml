@@ -1,0 +1,54 @@
+@startuml EC
+
+!theme toy
+
+title ECサイトのER図
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBackgroundColor #d9cb65
+
+entity "ユーザー" as users {
++ id [PK]
+--
+  name
+}
+
+entity "販売管理" as purchases {
++ id [PK]
+--
+# item_id [FK]
+# user_id [FK]
+  purchase_date
+  puchase_number
+}
+
+entity "商品" as items {
++ id [PK]
+--
+  name
+# category_id [FK]
+  price
+}
+
+entity "商品カテゴリ" as item_categories {
++ id [PK]
+--
+  name
+}
+
+' コメント：配置方法
+purchases }o-right-|| items
+purchases }o-left-|| users
+items ||-down-|| item_categories
+
+' ヘッダー
+header
+apprentice ER図を書くことができる
+endheader
+
+
+@enduml
+
+
+
+

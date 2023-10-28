@@ -4,5 +4,5 @@
 
 ## Level 2
 
-- [ ] オブジェクト指向を使いコードを設計できる
-- [ ] [データベース設計において正規化を行い、矛盾の発生を防ぐことができる](/quest/technologies/database/NORMALIZATION.md)
+- [x] オブジェクト指向を使いコードを設計できる
+- [x] [データベース設計において正規化を行い、矛盾の発生を防ぐことができる](/quest/technologies/database/NORMALIZATION.md)
