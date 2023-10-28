@@ -15,10 +15,10 @@
 ## Level 2
 
 - [x] [データベース設計の流れを説明できる](/quest/technologies/database/FLOW.md)
-- [ ] [エンティティを定義できる](/quest/technologies/database/ENTITY.md)
-- [ ] [データベースを正規化できる](/quest/technologies/database/NORMALIZATION.md)
-- [ ] [ER 図を書くことができる](/quest/technologies/database/ER_DIAGRAM.md)
-- [ ] [テーブルを定義できる](/quest/technologies/database/TABLE_DEFINITION.md)
+- [x] [エンティティを定義できる](/quest/technologies/database/ENTITY.md)
+- [x] [データベースを正規化できる](/quest/technologies/database/NORMALIZATION.md)
+- [x] [ER 図を書くことができる](/quest/technologies/database/ER_DIAGRAM.md)
+- [x] [テーブルを定義できる](/quest/technologies/database/TABLE_DEFINITION.md)
 - [ ] [インデックスを設定できる](/quest/technologies/database/INDEX.md)
 
 ## Level 3

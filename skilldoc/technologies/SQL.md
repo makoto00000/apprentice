@@ -10,16 +10,16 @@ SQL を身につけることで、データを扱うあらゆる分野で活躍�
 
 ## Level 1
 
-- [ ] [データベースを作成・指定・削除できる](/quest/technologies/sql/DATABASE.md)
-- [ ] [ユーザーを作成・権限付与・削除できる](/quest/technologies/sql/USER.md)
-- [ ] [テーブルを作成・修正・削除できる](/quest/technologies/sql/TABLE.md)
-- [ ] [データを登録・検索・更新・削除できる](/quest/technologies/sql/DATA.md)
+- [x] [データベースを作成・指定・削除できる](/quest/technologies/sql/DATABASE.md)
+- [x] [ユーザーを作成・権限付与・削除できる](/quest/technologies/sql/USER.md)
+- [x] [テーブルを作成・修正・削除できる](/quest/technologies/sql/TABLE.md)
+- [x] [データを登録・検索・更新・削除できる](/quest/technologies/sql/DATA.md)
 
 ## Level 2
 
-- [ ] [データを検索できる](/quest/technologies/sql/SELECT.md)
-- [ ] [データを絞り込むことができる](/quest/technologies/sql/WHERE.md)
-- [ ] [検索結果の並び替えができる](/quest/technologies/sql/ORDER.md)
+- [x] [データを検索できる](/quest/technologies/sql/SELECT.md)
+- [x] [データを絞り込むことができる](/quest/technologies/sql/WHERE.md)
+- [x] [検索結果の並び替えができる](/quest/technologies/sql/ORDER.md)
 - [ ] [データを集計できる](/quest/technologies/sql/AGGREGATE.md)
 - [ ] [データをグルーピングできる](/quest/technologies/sql/GROUP.md)
 - [ ] [テーブルを結合できる](/quest/technologies/sql/JOIN.md)
