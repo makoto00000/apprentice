@@ -19,9 +19,9 @@
 - [x] [データベースを正規化できる](/quest/technologies/database/NORMALIZATION.md)
 - [x] [ER 図を書くことができる](/quest/technologies/database/ER_DIAGRAM.md)
 - [x] [テーブルを定義できる](/quest/technologies/database/TABLE_DEFINITION.md)
-- [ ] [インデックスを設定できる](/quest/technologies/database/INDEX.md)
+- [x] [インデックスを設定できる](/quest/technologies/database/INDEX.md)
 
 ## Level 3
 
-- [ ] [トランザクションについて説明できる](/quest/technologies/database/TRANSACTION.md)
-- [ ] [同時実行制御について説明できる](/quest/technologies/database/LOCK.md)
+- [x] [トランザクションについて説明できる](/quest/technologies/database/TRANSACTION.md)
+- [x] [同時実行制御について説明できる](/quest/technologies/database/LOCK.md)

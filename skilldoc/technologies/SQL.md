@@ -20,14 +20,14 @@ SQL を身につけることで、データを扱うあらゆる分野で活躍�
 - [x] [データを検索できる](/quest/technologies/sql/SELECT.md)
 - [x] [データを絞り込むことができる](/quest/technologies/sql/WHERE.md)
 - [x] [検索結果の並び替えができる](/quest/technologies/sql/ORDER.md)
-- [ ] [データを集計できる](/quest/technologies/sql/AGGREGATE.md)
-- [ ] [データをグルーピングできる](/quest/technologies/sql/GROUP.md)
-- [ ] [テーブルを結合できる](/quest/technologies/sql/JOIN.md)
-- [ ] [スタイルガイドに則ってクエリを書ける](/quest/technologies/sql/STYLE_GUIDE.md)
+- [x] [データを集計できる](/quest/technologies/sql/AGGREGATE.md)
+- [x] [データをグルーピングできる](/quest/technologies/sql/GROUP.md)
+- [x] [テーブルを結合できる](/quest/technologies/sql/JOIN.md)
+- [x] [スタイルガイドに則ってクエリを書ける](/quest/technologies/sql/STYLE_GUIDE.md)
 
 ## Level 3
 
-- [ ] [サブクエリを使うことができる](/quest/technologies/sql/SUBQUERY.md)
-- [ ] [条件分岐ができる](/quest/technologies/sql/CASE.md)
-- [ ] [実行計画を確認できる](/quest/technologies/sql/EXPLAIN.md)
-- [ ] [N＋1問題の対策ができる](/quest/technologies/sql/NONE.md)
+- [x] [サブクエリを使うことができる](/quest/technologies/sql/SUBQUERY.md)
+- [x] [条件分岐ができる](/quest/technologies/sql/CASE.md)
+- [x] [実行計画を確認できる](/quest/technologies/sql/EXPLAIN.md)
+- [x] [N＋1問題の対策ができる](/quest/technologies/sql/NONE.md)
