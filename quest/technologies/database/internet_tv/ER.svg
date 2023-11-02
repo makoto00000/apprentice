@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="368px" preserveAspectRatio="none" style="width:505px;height:368px;background:#DDDDDD;" version="1.1" viewBox="0 0 505 368" width="505px" zoomAndPan="magnify"><defs/><g><rect fill="#DDDDDD" height="11.7773" rx="3.5" ry="3.5" style="stroke:none;stroke-width:1.0;" width="125" x="366.5" y="0"/><text fill="#888888" font-family="sans-serif" font-size="10" lengthAdjust="spacing" textLength="125" x="366.5" y="9.668">apprentice 提出クエスト用</text><rect fill="#111111" height="26.4883" id="_title" rx="7.5" ry="7.5" style="stroke:#111111;stroke-width:0.0;" width="110" x="190.75" y="17.7773"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="100" x="195.75" y="36.3125">INTERNET_TV</text><!--MD5=[37b593f9aac76cb7a7076508ecea7157]
+class episodes--><g id="elem_episodes"><rect codeLine="14" fill="#F1F1F1" height="113.9531" id="episodes" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="163.5" y="73.7456"/><ellipse cx="209.75" cy="89.7456" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M213.3643,96.2456 L205.6445,96.2456 L205.6445,83.8526 L213.3643,83.8526 L213.3643,86.0108 L208.0933,86.0108 L208.0933,88.6836 L212.8662,88.6836 L212.8662,90.8418 L208.0933,90.8418 L208.0933,94.0874 L213.3643,94.0874 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="230.25" y="95.0366">episodes</text><line style="stroke:#181818;stroke-width:0.5;" x1="164.5" x2="324.5" y1="105.7456" y2="105.7456"/><ellipse cx="174.5" cy="119.4898" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="183.5" y="123.2808">id [PK]</text><line style="stroke:#181818;stroke-width:1.0;" x1="164.5" x2="324.5" y1="130.2339" y2="130.2339"/><polygon fill="none" points="174.5,138.978,178.5,142.978,174.5,146.978,170.5,142.978" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="183.5" y="147.7691">program_id [FK]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="183.5" y="164.2573">number_of_episode</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="183.5" y="180.7456">number_of_season</text></g><!--MD5=[daee4b9d8d45d05bd73eab190ce750de]
+class channels--><g id="elem_channels"><rect codeLine="22" fill="#F1F1F1" height="80.9766" id="channels" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="383" y="272.4356"/><ellipse cx="398" cy="288.4356" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M401.6143,294.9356 L393.8945,294.9356 L393.8945,282.5426 L401.6143,282.5426 L401.6143,284.7008 L396.3433,284.7008 L396.3433,287.3736 L401.1162,287.3736 L401.1162,289.5318 L396.3433,289.5318 L396.3433,292.7774 L401.6143,292.7774 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="412" y="293.7266">channels</text><line style="stroke:#181818;stroke-width:0.5;" x1="384" x2="475" y1="304.4356" y2="304.4356"/><ellipse cx="394" cy="318.1798" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="403" y="321.9708">id [PK]</text><line style="stroke:#181818;stroke-width:1.0;" x1="384" x2="475" y1="328.9239" y2="328.9239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="389" y="346.4591">name</text></g><!--MD5=[705c8c8d97746f1c19bcf3b679fefccb]
+class time_slots--><g id="elem_time_slots"><rect codeLine="28" fill="#F1F1F1" height="146.9297" id="time_slots" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="360.5" y="57.2656"/><ellipse cx="392.15" cy="73.2656" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M395.7643,79.7656 L388.0445,79.7656 L388.0445,67.3726 L395.7643,67.3726 L395.7643,69.5308 L390.4933,69.5308 L390.4933,72.2036 L395.2662,72.2036 L395.2662,74.3618 L390.4933,74.3618 L390.4933,77.6074 L395.7643,77.6074 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="409.85" y="78.5566">time_slots</text><line style="stroke:#181818;stroke-width:0.5;" x1="361.5" x2="497.5" y1="89.2656" y2="89.2656"/><ellipse cx="371.5" cy="103.0098" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="380.5" y="106.8008">id [PK]</text><line style="stroke:#181818;stroke-width:1.0;" x1="361.5" x2="497.5" y1="113.7539" y2="113.7539"/><polygon fill="none" points="371.5,122.498,375.5,126.498,371.5,130.498,367.5,126.498" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="380.5" y="131.2891">channel_id [FK]</text><polygon fill="none" points="371.5,138.9863,375.5,142.9863,371.5,146.9863,367.5,142.9863" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="380.5" y="147.7773">episode_id [FK]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="380.5" y="164.2656">start_time</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="380.5" y="180.7539">end_time</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="380.5" y="197.2422">number_of_view</text></g><!--MD5=[a2e2e658e1a23cb309e7624d7cc6640c]
+class programs--><g id="elem_programs"><rect codeLine="38" fill="#F1F1F1" height="97.4648" id="programs" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="99" x="195" y="264.1956"/><ellipse cx="210" cy="280.1956" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M213.6143,286.6956 L205.8945,286.6956 L205.8945,274.3026 L213.6143,274.3026 L213.6143,276.4608 L208.3433,276.4608 L208.3433,279.1336 L213.1162,279.1336 L213.1162,281.2918 L208.3433,281.2918 L208.3433,284.5374 L213.6143,284.5374 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="224" y="285.4866">programs</text><line style="stroke:#181818;stroke-width:0.5;" x1="196" x2="293" y1="296.1956" y2="296.1956"/><ellipse cx="206" cy="309.9398" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="215" y="313.7308">id [PK]</text><line style="stroke:#181818;stroke-width:1.0;" x1="196" x2="293" y1="320.6839" y2="320.6839"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="201" y="338.2191">title</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="201" y="354.7073">detail</text></g><!--MD5=[b612a65a16347e592dc589a2923b565b]
+class programs_genres--><g id="elem_programs_genres"><rect codeLine="45" fill="#F1F1F1" height="97.4648" id="programs_genres" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="7" y="264.1956"/><ellipse cx="22" cy="280.1956" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M25.6143,286.6956 L17.8945,286.6956 L17.8945,274.3026 L25.6143,274.3026 L25.6143,276.4608 L20.3433,276.4608 L20.3433,279.1336 L25.1162,279.1336 L25.1162,281.2918 L20.3433,281.2918 L20.3433,284.5374 L25.6143,284.5374 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="36" y="285.4866">programs_genres</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="159" y1="296.1956" y2="296.1956"/><ellipse cx="18" cy="309.9398" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="27" y="313.7308">id [PK]</text><line style="stroke:#181818;stroke-width:1.0;" x1="8" x2="159" y1="320.6839" y2="320.6839"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="13" y="338.2191">program_id [FK]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="13" y="354.7073">genre_id [FK]</text></g><!--MD5=[bb44e96b11e216c58f7b95ca85ed017e]
+class genres--><g id="elem_genres"><rect codeLine="52" fill="#F1F1F1" height="80.9766" id="genres" rx="3.5" ry="3.5" style="stroke:#181818;stroke-width:0.5;" width="79" x="44" y="90.2356"/><ellipse cx="59" cy="106.2356" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/><path d="M62.6143,112.7356 L54.8945,112.7356 L54.8945,100.3426 L62.6143,100.3426 L62.6143,102.5008 L57.3433,102.5008 L57.3433,105.1736 L62.1162,105.1736 L62.1162,107.3318 L57.3433,107.3318 L57.3433,110.5774 L62.6143,110.5774 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="73" y="111.5266">genres</text><line style="stroke:#181818;stroke-width:0.5;" x1="45" x2="122" y1="122.2356" y2="122.2356"/><ellipse cx="55" cy="135.9798" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="64" y="139.7708">id [PK]</text><line style="stroke:#181818;stroke-width:1.0;" x1="45" x2="122" y1="146.7239" y2="146.7239"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="50" y="164.2591">name</text></g><!--MD5=[4b3e78be9ba304f79b0d250657dac0ea]
+link programs_genres to programs--><g id="link_programs_genres_programs"><path codeLine="60" d="M169.68,312.9256 C174.91,312.9256 180.14,312.9256 185.37,312.9256 " fill="none" id="programs_genres-programs" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="189.28" x2="189.28" y1="308.9256" y2="316.9256"/><line style="stroke:#454645;stroke-width:1.0;" x1="186.28" x2="186.28" y1="308.9256" y2="316.9256"/><line style="stroke:#454645;stroke-width:1.0;" x1="185.28" x2="193.28" y1="312.9256" y2="312.9256"/><line style="stroke:#454645;stroke-width:1.0;" x1="169.74" x2="161.74" y1="312.9256" y2="318.9256"/><line style="stroke:#454645;stroke-width:1.0;" x1="169.74" x2="161.74" y1="312.9256" y2="306.9256"/><line style="stroke:#454645;stroke-width:1.0;" x1="169.74" x2="161.74" y1="312.9256" y2="312.9256"/><ellipse cx="175.74" cy="312.9256" fill="none" rx="4" ry="4" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[945bb0ca3ae5b93905e25b7847788e5b]
+link genres to programs_genres--><g id="link_genres_programs_genres"><path codeLine="61" d="M83.5,180.5156 C83.5,203.3556 83.5,230.7056 83.5,254.5356 " fill="none" id="genres-programs_genres" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="83.5" x2="89.5" y1="254.2956" y2="262.2956"/><line style="stroke:#454645;stroke-width:1.0;" x1="83.5" x2="77.5" y1="254.2956" y2="262.2956"/><line style="stroke:#454645;stroke-width:1.0;" x1="83.5" x2="83.5" y1="254.2956" y2="262.2956"/><ellipse cx="83.5" cy="248.2956" fill="none" rx="4" ry="4" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="79.5" x2="87.5" y1="176.7856" y2="176.7856"/><line style="stroke:#454645;stroke-width:1.0;" x1="79.5" x2="87.5" y1="179.7856" y2="179.7856"/><line style="stroke:#454645;stroke-width:1.0;" x1="83.5" x2="83.5" y1="180.7856" y2="172.7856"/></g><!--MD5=[61851c561495ae902680ae9e9945a93a]
+link episodes to time_slots--><g id="link_episodes_time_slots"><path codeLine="62" d="M335.21,130.7256 C340.43,130.7256 345.64,130.7256 350.85,130.7256 " fill="none" id="episodes-time_slots" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="350.72" x2="358.72" y1="130.7256" y2="124.7256"/><line style="stroke:#454645;stroke-width:1.0;" x1="350.72" x2="358.72" y1="130.7256" y2="136.7256"/><line style="stroke:#454645;stroke-width:1.0;" x1="350.72" x2="358.72" y1="130.7256" y2="130.7256"/><ellipse cx="344.72" cy="130.7256" fill="none" rx="4" ry="4" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="331.31" x2="331.31" y1="134.7256" y2="126.7256"/><line style="stroke:#454645;stroke-width:1.0;" x1="334.31" x2="334.31" y1="134.7256" y2="126.7256"/><line style="stroke:#454645;stroke-width:1.0;" x1="335.31" x2="327.31" y1="130.7256" y2="130.7256"/></g><!--MD5=[37cceacc80ea3e99d7940d80a6320481]
+link episodes to programs--><g id="link_episodes_programs"><path codeLine="63" d="M244.5,197.0656 C244.5,215.8556 244.5,236.2056 244.5,254.4856 " fill="none" id="episodes-programs" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="248.5" x2="240.5" y1="258.3156" y2="258.3156"/><line style="stroke:#454645;stroke-width:1.0;" x1="248.5" x2="240.5" y1="255.3156" y2="255.3156"/><line style="stroke:#454645;stroke-width:1.0;" x1="244.5" x2="244.5" y1="254.3156" y2="262.3156"/><line style="stroke:#454645;stroke-width:1.0;" x1="244.5" x2="238.5" y1="197.2656" y2="189.2656"/><line style="stroke:#454645;stroke-width:1.0;" x1="244.5" x2="250.5" y1="197.2656" y2="189.2656"/><line style="stroke:#454645;stroke-width:1.0;" x1="244.5" x2="244.5" y1="197.2656" y2="189.2656"/><line style="stroke:#454645;stroke-width:1.0;" x1="240.5" x2="248.5" y1="199.2656" y2="199.2656"/></g><!--MD5=[9925839a3103e79925c4c73d8eed1354]
+link time_slots to channels--><g id="link_time_slots_channels"><path codeLine="64" d="M429.5,213.7556 C429.5,230.5256 429.5,247.6756 429.5,262.8556 " fill="none" id="time_slots-channels" style="stroke:#454645;stroke-width:1.0;"/><line style="stroke:#454645;stroke-width:1.0;" x1="433.5" x2="425.5" y1="266.5156" y2="266.5156"/><line style="stroke:#454645;stroke-width:1.0;" x1="433.5" x2="425.5" y1="263.5156" y2="263.5156"/><line style="stroke:#454645;stroke-width:1.0;" x1="429.5" x2="429.5" y1="262.5156" y2="270.5156"/><line style="stroke:#454645;stroke-width:1.0;" x1="429.5" x2="423.5" y1="214.0156" y2="206.0156"/><line style="stroke:#454645;stroke-width:1.0;" x1="429.5" x2="435.5" y1="214.0156" y2="206.0156"/><line style="stroke:#454645;stroke-width:1.0;" x1="429.5" x2="429.5" y1="214.0156" y2="206.0156"/><ellipse cx="429.5" cy="220.0156" fill="none" rx="4" ry="4" style="stroke:#454645;stroke-width:1.0;"/></g><!--MD5=[57a8a0804bf0ae7334a28ae5c89e8778]
+@startuml INTERNET_TV
+
+' テーマ
+!theme toy
+
+' 設定
+title "INTERNET_TV"
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 0
+skinparam titleFontColor #ffffff
+skinparam titleBackgroundColor #111111
+
+' エンティティ
+
+entity episodes {
++ id [PK]
+- -
+# program_id [FK]
+  number_of_episode
+  number_of_season
+}
+
+entity channels {
++ id [PK]
+- -
+  name
+}
+
+entity time_slots {
++ id [PK]
+- -
+# channel_id [FK]
+# episode_id [FK]
+  start_time
+  end_time
+  number_of_view
+}
+
+entity programs {
++ id [PK]
+- -
+  title
+  detail
+}
+
+entity programs_genres {
++ id [PK]
+- -
+  program_id [FK]
+  genre_id [FK]
+}
+
+entity genres {
++ id [PK]
+- -
+  name
+}
+
+
+' リレーション
+programs ||-l-o{ programs_genres
+programs_genres }o-u-|| genres
+episodes ||-r-o{ time_slots
+programs ||-u-|{ episodes
+time_slots }o-d-|| channels
+
+
+' ヘッダー
+header
+apprentice 提出クエスト用
+endheader
+
+
+@enduml
+
+@startuml INTERNET_TV
+
+skinparam BackgroundColor DDDDDD
+skinparam shadowing false
+skinparam RoundCorner 7
+skinparam ArrowColor 454645
+skinparam FontColor 454645
+skinparam SequenceLifeLineBorderColor 454645
+skinparam SequenceGroupHeaderFontColor 454645
+skinparam SequenceGroupFontColor 454645
+skinparam SequenceGroupBorderColor 454645
+skinparam SequenceGroupBorderThickness 1
+
+skinparam sequenceDivider {
+    BorderColor 454645
+    BorderThickness 1
+    FontColor 454645
+}
+
+skinparam participant {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor White
+    BorderThickness 1.5
+}
+
+skinparam database {
+    BackgroundColor 98DDDE
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam entity {
+    BackgroundColor FFDA29
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam note {
+    BackgroundColor LightGreen
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1
+}
+
+skinparam actor {
+    BackgroundColor 454645
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam boundary {
+    BackgroundColor FFDA29
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam control {
+    BackgroundColor FFDA29
+    BorderColor 454645
+    FontColor 454645
+}
+
+skinparam collections {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor 454645
+    BorderThickness 1.5
+}
+
+skinparam queue {
+    BackgroundColor FF6F61
+    BorderColor 454645
+    FontColor FFF
+    BorderThickness 1.5
+}
+
+title "INTERNET_TV"
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 0
+skinparam titleFontColor #ffffff
+skinparam titleBackgroundColor #111111
+
+
+entity episodes {
++ id [PK]
+- -
+# program_id [FK]
+  number_of_episode
+  number_of_season
+}
+
+entity channels {
++ id [PK]
+- -
+  name
+}
+
+entity time_slots {
++ id [PK]
+- -
+# channel_id [FK]
+# episode_id [FK]
+  start_time
+  end_time
+  number_of_view
+}
+
+entity programs {
++ id [PK]
+- -
+  title
+  detail
+}
+
+entity programs_genres {
++ id [PK]
+- -
+  program_id [FK]
+  genre_id [FK]
+}
+
+entity genres {
++ id [PK]
+- -
+  name
+}
+
+
+programs ||-l-o{ programs_genres
+programs_genres }o-u-|| genres
+episodes ||-r-o{ time_slots
+programs ||-u-|{ episodes
+time_slots }o-d-|| channels
+
+
+header
+apprentice 提出クエスト用
+endheader
+
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 JST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+--></g></svg>

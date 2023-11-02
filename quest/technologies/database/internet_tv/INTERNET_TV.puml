@@ -1,0 +1,80 @@
+@startuml INTERNET_TV
+
+' テーマ
+!theme toy
+
+' 設定
+title "INTERNET_TV"
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 0
+skinparam titleFontColor #ffffff
+skinparam titleBackgroundColor #111111
+
+' エンティティ
+
+entity episodes {
++ id [PK]
+--
+# program_id [FK]
+  title
+  description
+  number_of_episode
+  number_of_season
+}
+
+entity channels {
++ id [PK]
+--
+  name
+}
+
+entity time_slots {
++ id [PK]
+--
+# channel_id [FK]
+# episode_id [FK]
+  start_time
+  end_time
+  number_of_views
+}
+
+entity programs {
++ id [PK]
+--
+  title
+  description
+}
+
+entity programs_genres {
++ id [PK]
+--
+  program_id [FK]
+  genre_id [FK]
+}
+
+entity genres {
++ id [PK]
+--
+  name
+}
+
+
+' リレーション
+programs ||-l-o{ programs_genres
+programs_genres }o-u-|| genres
+episodes ||-r-o{ time_slots
+programs ||-u-|{ episodes
+time_slots }o-d-|| channels
+
+
+' ヘッダー
+header
+apprentice 提出クエスト用
+endheader
+
+
+@enduml
+
+
+
+
