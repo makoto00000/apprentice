@@ -10,7 +10,7 @@ $ mysql -u root
 
 MySQL のユーザーを作成してください。名前とパスワードは任意、ホストは localhost を指定してください。
 
-```mysql
+```sql
 mysql> create user `testuser`@`localhost` IDENTIFIED BY `password`;
 
 ```
@@ -19,7 +19,7 @@ mysql> create user `testuser`@`localhost` IDENTIFIED BY `password`;
 
 ユーザーを作成できたことを確認するために、ユーザーの一覧を表示してください。
 
-```mysql
+```sql
 mysql> SELECT Host, User FROM mysql.user; 
 ```
 +-----------+------------------+  
@@ -35,7 +35,7 @@ mysql> SELECT Host, User FROM mysql.user;
 
 なお、ユーザーへの権限付与を学習するために本問題を用意していますが、現場ですべてのデータベースへの root のフルアクセス権限を付与することはほぼありません。データベースのセキュリティを危険にさらす可能性があるためです。
 
-```mysql
+```sql
 現在の権限を確認
 mysql> show grants for testuser@localhost;
 
@@ -43,7 +43,7 @@ mysql> show grants for testuser@localhost;
 USAGE ... 「何も権限がない」の意味
 ```
 
-```mysql
+```sql
 指定のDBに対してすべての権限を付与
 mysql> grant all on apprentice_quest.* to testuser@localhost;
 ```
@@ -53,7 +53,7 @@ mysql> grant all on apprentice_quest.* to testuser@localhost;
 
 ユーザーに権限を付与したら、すべての権限をリロードしてください。これにより設定が有効になります。
 
-```mysql
+```sql
 mysql> FLUSH PRIVILEGES;
 ```
 ※ 常に必要なわけではない。
@@ -62,7 +62,7 @@ mysql> FLUSH PRIVILEGES;
 
 作成したユーザーを削除してください。削除後、削除できていることを確認してください。
 
-```mysql
+```sql
 mysql> drop user testuesr@localhost;
 ```
 
@@ -73,6 +73,6 @@ mysql> drop user testuesr@localhost;
 
 今後は root ユーザーは基本的に使用せず、今回作成したユーザーを使用してください。
 
-```mysql
+```sql
 mysql> 
 ```

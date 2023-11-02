@@ -13,7 +13,7 @@ mysql> use apprentice_quest
 
 任意のテーブルを作成してください。テーブルのカラムは自由に作成してください。
 
-```mysql
+```sql
 mysql> CREATE TABLE `users` (
           `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT "ID",
           `name` VARCHAR(100) NOT NULL COMMENT "ユーザー名",
@@ -28,7 +28,7 @@ mysql> CREATE TABLE `users` (
 
 テーブルが作成できたことを確認するために、テーブルの一覧を表示してください。
 
-```mysql
+```sql
 mysql> show tables;
 ```
 
@@ -36,14 +36,14 @@ mysql> show tables;
 
 作成したテーブルに、任意のカラムを一列追加してください。
 
-```mysql
+```sql
 mysql> ALTER TABLE users ADD tel int DEFAULT NULL COMMENT "電話番号" AFTER mail_address;
 ```
 ## 4. カラムの表示
 
 カラムが追加できたことを確認するために、テーブルのカラムの一覧を表示してください。
 
-```mysql
+```sql
 mysql> DESC users;
 ```
 
@@ -51,7 +51,7 @@ mysql> DESC users;
 
 追加したカラムを削除してください。削除後、削除できていることを確認してください。
 
-```mysql
+```sql
 mysql> ALTER TABLE users DROP COLUMN tel;
 ```
 
@@ -59,7 +59,7 @@ mysql> ALTER TABLE users DROP COLUMN tel;
 
 作成したテーブルを削除してください。削除後、削除できていることを確認してください。
 
-```mysql
+```sql
 mysql> DROP TABLE users;
 ```
 
@@ -69,7 +69,7 @@ mysql> DROP TABLE users;
 
 今後、作成したテーブルを指定して作業します。
 
-```mysql
+```sql
 mysql> CREATE TABLE `users` (
           `id` int NOT NULL AUTO_INCREMENT PRIMARY KEY COMMENT "ID",
           `name` VARCHAR(100) NOT NULL COMMENT "ユーザー名",

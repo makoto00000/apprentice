@@ -40,7 +40,7 @@ mysql> show databeses;
 
 今後あるデータベース上で操作をする場合、データベースの指定をしてから操作をしていきます。
 
-```mysql
+```sql
 mysql> use データベース名;
 ```
 
@@ -48,7 +48,7 @@ mysql> use データベース名;
 
 作成したデータベースを削除しましょう。削除後、削除できていることを確認してください。
 
-```mysql
+```sql
 mysql> drop databese データベース名;
 ```
 
@@ -58,7 +58,7 @@ mysql> drop databese データベース名;
 
 今後、作成したデータベースを指定して作業します。
 
-```mysql
+```sql
 mysql> create databese apprentice_quest;
 ```
 
