@@ -22,11 +22,15 @@
 
 ## ステップ3 (advanced)
 
+テストコードを1つでよいので書いてください。
+
+## ステップ４ (advanced)
+
 次のページの HTML と CSS を実装し、ページを作成してください。この時点では機能は作成せず、見た目を整えるだけでよいです。
 
 - [Authentication](https://realworld-docs.netlify.app/docs/specs/frontend-specs/templates#authentication)
 
-## ステップ4 (advanced)
+## ステップ５ (advanced)
 
 ステップ3のページの機能を実装し、動作するようにしてください。
 
