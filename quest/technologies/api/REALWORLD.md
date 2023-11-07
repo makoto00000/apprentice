@@ -16,7 +16,7 @@
 
 ## ステップ1
 
-RealWorld　の API のうち、次のエンドポイントを実装してください。
+RealWorld の API のうち、次のエンドポイントを実装してください。
 
 - [Create Article](https://realworld-docs.netlify.app/docs/specs/backend-specs/endpoints#create-article)
 - [Get Article](https://realworld-docs.netlify.app/docs/specs/backend-specs/endpoints#get-article)
@@ -37,17 +37,13 @@ RealWorld の API のうち、次のエンドポイントを実装してくだ�
 
 ### 2-2
 
-minitest もしくは RSpec を使って、2-1 のエンドポイントのテストを書いてください。
-
-### 2-3
-
 次のエンドポイントを実装してください。
 
 - [Authentication](https://realworld-docs.netlify.app/docs/specs/backend-specs/endpoints#authentication)
 
 その際に、Postman のテストの該当する箇所が通るように実装してください。
 
-### 2-4
+### 2-3
 
 次のエンドポイントを実装してください。
 
@@ -60,10 +56,10 @@ minitest もしくは RSpec を使って、2-1 のエンドポイントのテス
 
 なお、Article に関わる要素のうち、お気に入り(`favorite`) は実装しなくてよいものとします。Postman のテストからも該当箇所のコードは削除し除外してください。
 
+### 2-4
+
+いずれかのエンドポイントのテストを1つ書いてください。
+
 ### 2-5 (advanced)
 
-ユニットテストを1つでよいので書いてください。
-
-### 2-6 (advanced)
-
-2-4のエンドポイントに対して、タグ及びお気に入り(`favorite`)も実装してください。
+お気に入り(`favorite`)も実装してください。
