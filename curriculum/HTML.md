@@ -25,7 +25,7 @@
    19. [[JavaScript][Level2] ライブラリを使用できる](/quest/technologies/javascript/LIBRARY.md)
    20. [[JavaScript][Level2] Lint ツールを使用できる](/quest/technologies/javascript/LINT.md)
    21. [[JavaScript][Level3] 非同期で処理できる](/quest/technologies/javascript/ASYNC.md)(advanced)
-   22. [[JavaScript][Level3] Ajax 通信できる](/quest/technologies/javascript/ajax.md)(advanced)
+   22. [[JavaScript][Level3] Ajax 通信できる](/quest/technologies/javascript/AJAX.md)(advanced)
    23. [[JavaScript][Level3] JavaScript フレームワークを使うことができる](/quest/technologies/javascript/FRAMEWORK.md)(advanced)
    24. [[JavaScript][Level4] ブラウザの仕組みを説明できる](/quest/technologies/javascript/BROWSER.md)(advanced)
    25. [[JavaScript][Level4] TypeScript を使うことができる](/quest/technologies/javascript/TYPESCRIPT.md)(advanced)
