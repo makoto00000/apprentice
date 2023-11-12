@@ -31,5 +31,6 @@ Hello, Hikaru!
 ```js
 function greet(name) {
   // 関数を完成させてください
+  console.log(name);
 }
 ```

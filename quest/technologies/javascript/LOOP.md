@@ -31,6 +31,13 @@ true
 ```js
 function hasOdd(numbers) {
   // 関数を完成させてください
+  let bool = false
+  numbers.forEach(num => {
+    if (num % 2 == 0) {
+      bool = true
+    }
+  });
+  console.log(bool)
 }
 ```
 
@@ -65,6 +72,12 @@ odd([1, 2, 3, 4, 5])
 ```js
 function odd(numbers) {
   // 関数を完成させてください
+  numbers.map((num, i) => {
+    if (num % 2 == 0) {
+      numbers.splice(i, 1);
+    }
+  });
+  console.log(numbers)
 }
 ```
 
@@ -99,5 +112,10 @@ square([1, 2, 3, 4, 5])
 ```js
 function square(numbers) {
   // 関数を完成させてください
+  numbers.map((num, i) => {
+    let new_num = num ** 2
+    numbers.splice(i, 1, new_num)
+  });
+  console.log(numbers)
 }
 ```

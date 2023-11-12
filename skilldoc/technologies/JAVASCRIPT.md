@@ -8,19 +8,19 @@ JavaScript の技術領域は非常に広範にわたります。JavaScript の�
 
 ## Level 1
 
-- [ ] [JavaScript について説明できる](/quest/technologies/javascript/JAVASCRIPT_EXPLAIN.md)
-- [ ] [変数を宣言し代入することができる](/quest/technologies/javascript/VARIABLE.md)
-- [ ] [関数を定義し使うことができる](/quest/technologies/javascript/FUNCTION.md)
-- [ ] [条件分岐を使うことができる](/quest/technologies/javascript/CONDITIONAL_EXECUTION.md)
-- [ ] [ループを使うことができる](/quest/technologies/javascript/LOOP.md)
-- [ ] [データ型を使い分けることができる](/quest/technologies/javascript/DATA_TYPE.md)
-- [ ] [オブジェクトを使うことができる](/quest/technologies/javascript/OBJECT.md)
+- [x] [JavaScript について説明できる](/quest/technologies/javascript/JAVASCRIPT_EXPLAIN.md)
+- [x] [変数を宣言し代入することができる](/quest/technologies/javascript/VARIABLE.md)
+- [x] [関数を定義し使うことができる](/quest/technologies/javascript/FUNCTION.md)
+- [x] [条件分岐を使うことができる](/quest/technologies/javascript/CONDITIONAL_EXECUTION.md)
+- [x] [ループを使うことができる](/quest/technologies/javascript/LOOP.md)
+- [x] [データ型を使い分けることができる](/quest/technologies/javascript/DATA_TYPE.md)
+- [x] [オブジェクトを使うことができる](/quest/technologies/javascript/OBJECT.md)
 
 ## Level 2
 
-- [ ] [DOM 操作ができる](/quest/technologies/javascript/DOM.md)
-- [ ] [ブラウザ環境でのデバッグができる](/quest/technologies/javascript/DEBUG.md)
-- [ ] [スタイルガイドに則り書くことができる](/quest/technologies/javascript/STYLEGUIDE.md)
+- [x] [DOM 操作ができる](/quest/technologies/javascript/DOM.md)
+- [x] [ブラウザ環境でのデバッグができる](/quest/technologies/javascript/DEBUG.md)
+- [x] [スタイルガイドに則り書くことができる](/quest/technologies/javascript/STYLEGUIDE.md)
 - [ ] [インタラクティブな Web アプリを作成できる](/quest/technologies/javascript/INTERACTIVE.md)
 - [ ] [クラスを自作し使うことができる](/quest/technologies/javascript/CLASS.md)
 - [ ] [例外処理を使うことができる](/quest/technologies/javascript/EXCEPTION.md)

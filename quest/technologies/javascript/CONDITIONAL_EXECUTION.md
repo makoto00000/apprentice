@@ -35,8 +35,14 @@ Hot
 ▼回答例
 
 ```js
-function checkTemperature() {
+function checkTemperature(t) {
   // 関数を完成させてください
+  if (t >= 30)
+    console.log("Hot")
+  else if (t < 30 && t >= 15)
+    console.log("Warm")
+  else
+  console.log("Cold")
 }
 ```
 
@@ -71,5 +77,9 @@ Even
 ```js
 function checkOddOrEven() {
   // 関数を完成させてください
+  if (n % 2 == 0)
+    console.log("Even")
+  else
+    console.log("Odd")
 }
 ```

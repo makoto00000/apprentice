@@ -8,11 +8,11 @@ HTML と CSS を習得することで、Web サイトの画面を作成できる
 
 ## Level 1
 
-- [ ] [HTML と CSSについて説明できる](/quest/technologies/html/HTML_EXPLAIN.md)
-- [ ] [HTML と CSS の基本を理解している](/quest/technologies/html/HTML_BASIC.md)
+- [x] [HTML と CSSについて説明できる](/quest/technologies/html/HTML_EXPLAIN.md)
+- [x] [HTML と CSS の基本を理解している](/quest/technologies/html/HTML_BASIC.md)
 
 ## Level 2
 
-- [ ] [簡単なサイトの模写ができる](/quest/technologies/html/SIMPLE_SITE_COPY.md)
-- [ ] [レスポンシブ対応できる](/quest/technologies/html/RESPONSIVE.md)
-- [ ] [HTML/CSS スタイルガイドに則って書ける](/quest/technologies/html/STYLEGUIDE.md)
+- [x] [簡単なサイトの模写ができる](/quest/technologies/html/SIMPLE_SITE_COPY.md)
+- [x] [レスポンシブ対応できる](/quest/technologies/html/RESPONSIVE.md)
+- [x] [HTML/CSS スタイルガイドに則って書ける](/quest/technologies/html/STYLEGUIDE.md)

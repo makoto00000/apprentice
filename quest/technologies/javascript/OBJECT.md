@@ -5,7 +5,6 @@
 書籍の名前と著者名をプロパティとして持つオブジェクトの配列 books を受け取り、「『書籍名』著者名」を出力する関数 printBooks を実装してください。
 
 ▼インプット
-よ
 
 ```js
 books：オブジェクトの配列
@@ -34,8 +33,21 @@ printBooks(books)
 ▼回答例
 
 ```js
+const books = [
+{
+  title: 'JavaScript入門',
+  author: '山田太郎'
+},
+{
+  title: 'JavaScriptの絵本',
+  author: '山田治郎'
+}
+]
 function printBooks(books) {
   // 関数を完成させてください
+  books.forEach(book => {
+    console.log(`"『${book.title}』${book.author}"`)
+  });
 }
 ```
 
@@ -95,12 +107,21 @@ true
 ```js
 function checkPermission(username, permission) {
   // 関数を完成させてください
+  users.forEach(user => {
+    if (user.username == username) {
+      console.log(user.permissions[permission])
+    }
+  });
 }
 ```
 
 ## 3. メソッド
 
 JavaScript ではオブジェクトのプロパティが関数である場合、それをメソッドと呼びます。メソッドの定義として正しいものを全て選択してください。なお、正しいかどうかは手元で実行して確認することができます。
+
+```
+①,②,③は正しい。④はキーがないためエラー
+```
 
 ①
 
