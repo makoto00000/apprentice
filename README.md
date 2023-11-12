@@ -71,9 +71,9 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 | ---- | ---- | ---- |
 | 2W | 事前学習 | [Linux/Git](/curriculum/LINUX.md) |
 | 2W | 10/16(月) - 10/29(日) | [Ruby/オブジェクト指向](/curriculum/RUBY.md) or [PHP/オブジェクト指向](/curriculum/PHP.md) |
-| 2W | 10/30(月)- 11/12(日) | [データベース/SQL](/curriculum/DATABASE.md) |
-| 2W | 11/13(月) - 11/26(日) | HTML/CSS/JavaScript |
-| 1W | 11/27(月) - 12/3(日) | チームハッカソン |
+| 2W | 10/30(月) - 11/12(日) | [データベース/SQL](/curriculum/DATABASE.md) |
+| 2W | 11/13(月) - 11/26(日) | [HTML/CSS/JavaScript](/curriculum/HTML.md) |
+| 1W | 11/27(月) - 12/3(日) | [チーム開発](/curriculum/TEAM_DEV_1.md) |
 
 ### DEV 2: Framework
 
@@ -82,11 +82,11 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 | 週 | 期間 | 内容 |
 | ---- | ---- | ---- |
-| 3W | 12/4(月) - 12/24(日) | バックエンドフレームワーク/テスト |
-| 2W | 12/25(月)- 1/7(日) | API |
-| 3W | 1/8(月) - 1/28(日) | React |
-| 1W | 1/29(月) - 2/4(日) | チームハッカソン |
-| 3W | 2/5(月) - 2/25(日) | AWS/ネットワーク |
+| 3W | 12/4(月) - 12/24(日) | [Rails/テスト](/curriculum/RAILS.md) or [Laravel/テスト](/curriculum/LARAVEL.md) |
+| 2W | 12/25(月)- 1/7(日) | [API](/curriculum/API.md) |
+| 3W | 1/8(月) - 1/28(日) | [React](/curriculum/REACT.md) |
+| 1W | 1/29(月) - 2/4(日) | チーム開発 |
+| 3W | 2/5(月) - 2/25(日) | [AWS/ネットワーク](/curriculum/AWS.md) |
 
 ### DEV 3: Original Product
 
