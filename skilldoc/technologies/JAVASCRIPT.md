@@ -21,16 +21,16 @@ JavaScript の技術領域は非常に広範にわたります。JavaScript の�
 - [x] [DOM 操作ができる](/quest/technologies/javascript/DOM.md)
 - [x] [ブラウザ環境でのデバッグができる](/quest/technologies/javascript/DEBUG.md)
 - [x] [スタイルガイドに則り書くことができる](/quest/technologies/javascript/STYLEGUIDE.md)
-- [ ] [インタラクティブな Web アプリを作成できる](/quest/technologies/javascript/INTERACTIVE.md)
-- [ ] [クラスを自作し使うことができる](/quest/technologies/javascript/CLASS.md)
-- [ ] [例外処理を使うことができる](/quest/technologies/javascript/EXCEPTION.md)
-- [ ] [ライブラリを使用できる](/quest/technologies/javascript/LIBRARY.md)
-- [ ] [Lint ツールを使用できる](/quest/technologies/javascript/LINT.md)
+- [x] [インタラクティブな Web アプリを作成できる](/quest/technologies/javascript/INTERACTIVE.md)
+- [x] [クラスを自作し使うことができる](/quest/technologies/javascript/CLASS.md)
+- [x] [例外処理を使うことができる](/quest/technologies/javascript/EXCEPTION.md)
+- [x] [ライブラリを使用できる](/quest/technologies/javascript/LIBRARY.md)
+- [x] [Lint ツールを使用できる](/quest/technologies/javascript/LINT.md)
 
 ## Level 3
 
-- [ ] [非同期で処理できる](/quest/technologies/javascript/ASYNC.md)
-- [ ] [Ajax 通信できる](/quest/technologies/javascript/AJAX.md)
+- [x] [非同期で処理できる](/quest/technologies/javascript/ASYNC.md)
+- [x] [Ajax 通信できる](/quest/technologies/javascript/AJAX.md)
 - [ ] [JavaScript フレームワークを使うことができる](/quest/technologies/javascript/FRAMEWORK.md)
 
 ## Level 4
