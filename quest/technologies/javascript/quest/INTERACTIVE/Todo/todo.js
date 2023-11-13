@@ -22,6 +22,7 @@ function addTodoEvent(todos) {
   });
 }
 
+// データを初期化して、再描画
 function initData() {
   const fragment = document.createDocumentFragment();
   data.map((item, index) => {
@@ -40,12 +41,13 @@ function initData() {
   addTodoEvent(todos)
 }
 
+
+// Todoの追加ボタンが押されたときの処理
 function addTodo() {
   data.push({todo: input.value, isComplete: false})
   initData();
   input.value = ""
 }
-
 btn.addEventListener('click', (event) => {
   event.preventDefault();
   addTodo();

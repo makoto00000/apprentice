@@ -28,3 +28,22 @@ addSong()、removeSong()、play() のメソッドをクラスに追加してく�
 - addSong() は、引数として曲名を受け取り、songs 配列に追加してください
 - removeSong() は、引数として曲名を受け取り、songs 配列からそれを削除してください
 - play() は、配列の最初の曲を再生していることを示す文字列「再生中: 曲名」を返してください
+
+```js
+class Playlist {
+  songs = []
+  constructor(playlistName) {
+    this.playlistName = playlistName
+  }
+  addSong(song) {
+    this.songs.push(song)
+  }
+  removeSong(song) {
+    let index = this.songs.indexOf(song)
+    this.songs.splice(index, 1)
+  }
+  play() {
+    return `再生中: ${this.songs[0]}`
+  }
+}
+```
