@@ -31,9 +31,9 @@ JavaScript の技術領域は非常に広範にわたります。JavaScript の�
 
 - [x] [非同期で処理できる](/quest/technologies/javascript/ASYNC.md)
 - [x] [Ajax 通信できる](/quest/technologies/javascript/AJAX.md)
-- [ ] [JavaScript フレームワークを使うことができる](/quest/technologies/javascript/FRAMEWORK.md)
+- [x] [JavaScript フレームワークを使うことができる](/quest/technologies/javascript/FRAMEWORK.md)
 
 ## Level 4
 
-- [ ] [ブラウザの仕組みを説明できる](/quest/technologies/javascript/BROWSER.md)
-- [ ] [TypeScript を使うことができる](/quest/technologies/javascript/TYPESCRIPT.md)
+- [x] [ブラウザの仕組みを説明できる](/quest/technologies/javascript/BROWSER.md)
+- [x] [TypeScript を使うことができる](/quest/technologies/javascript/TYPESCRIPT.md)
