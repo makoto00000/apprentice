@@ -8,9 +8,19 @@
 
 ### [プロを目指す人のためのRuby入門](https://www.amazon.co.jp/dp/B09MPX7SMY/)
 
-- Ruby の定番の入門書です。この本の内容が使いこなせるようになれば Ruby は最初のうちはOKです
+- Ruby の定番の入門書です。この本の内容が使いこなせるようになれば Ruby は最初のうちは OK です
 
 ### [公式リファレンス](https://www.ruby-lang.org/ja/documentation/)
+
+- わからないことがあれば公式リファレンスを参照して理解を深めましょう
+
+## PHP
+
+### [PHP本格入門 上](https://www.amazon.co.jp/dp/B08DXRK18C)
+
+- PHP の基礎から実践までを学ぶことができます。最初は上巻だけで OK です
+
+### [PHPマニュアル](https://www.php.net/manual/ja/index.php)
 
 - わからないことがあれば公式リファレンスを参照して理解を深めましょう
 
@@ -132,6 +142,14 @@ TypeScript のオープンソースのドキュメントです。入門から様
 ### [Ruby on Rails ガイド](https://railsguides.jp/)
 
 - Rails の仕組みを体系的に学べる Rails のリファレンスです。Rails のわからないことはここで調べましょう
+
+## Laravel
+
+Laravel は公式ドキュメント以外のおすすめの入門教材を見つけられておらず、公式ドキュメントのみを推薦しています。
+
+### [Laravel ドキュメント](https://readouble.com/laravel/)
+
+- Laravel の日本語ドキュメントです。Laravel のわからないことはここで調べましょう
 
 ## API
 
