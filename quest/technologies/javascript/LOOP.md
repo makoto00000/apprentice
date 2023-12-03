@@ -74,13 +74,10 @@ function odd(numbers) {
   // 関数を完成させてください
   numbers.map((num, i) => {
     if (num % 2 == 0) {
-      numbers.splice(i, 1);
     }
   });
   console.log(numbers)
 }
-```
-
 ## 3. 2乗の計算
 
 整数の配列 numbers を受け取り、各要素を2乗した配列を返す関数 square を実装してください。
