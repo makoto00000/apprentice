@@ -126,3 +126,52 @@ HTTP リクエストは次のようになります。
 - DELETE /todos/:id
 
 HTTP レスポンスでは HTTP ステータスコード 204 を返し、レスポンスボディは空にしてください。
+
+```ruby:routes.rb
+Rails.application.routes.draw do
+  get "/health", to: "application#index"
+  resources :todos
+end
+```
+
+```ruby:application_controller.rb
+  class ApplicationController < ActionController::API
+  def index
+    render json: { status: 'success' }
+  end
+end
+```
+
+```ruby:todos_controller.rb
+class TodosController < ApplicationController
+  def index
+    todos = Todo.select(:id, :title)
+    render json: { "todos": todos }
+  end
+
+  def create
+    todo = Todo.new(todo_params)
+    if todo.save
+      render json: { "todo": { "id": todo.id, "title": todo.title } }
+    end
+  end
+
+  def update
+    @todo = Todo.find(params[:id])
+    if @todo.update(todo_params)
+      render json: { "todo": { "id": todo.id, "title": todo.title } }
+    end
+  end
+
+  def destroy
+    @todo = Todo.find(params[:id])
+    if @todo.destroy
+      render status: 204
+    end
+  end
+
+  def todo_params
+    params.require(:todo).permit(:title)
+  end
+end
+```
