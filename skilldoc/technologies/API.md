@@ -13,10 +13,10 @@ APIを理解することで、より実践的なアプリケーションが作�
 - [x] [API について説明できる](/quest/technologies/api/API.md)
 - [x] [Postman を使って API をテストできる](/quest/technologies/api/POSTMAN.md)
 - [x] [簡単な API を作成できる](/quest/technologies/api/EASY_API.md)
-- [ ] [CORS の設定ができる](/quest/technologies/api/CORS.md)
-- [ ] [API を利用できる](/quest/technologies/api/USE_API.md)
-- [ ] [REST について説明できる](/quest/technologies/api/REST.md)
-- [ ] [API を設計できる](/quest/technologies/api/DESIGN.md)
+- [x] [CORS の設定ができる](/quest/technologies/api/CORS.md)
+- [x] [API を利用できる](/quest/technologies/api/USE_API.md)
+- [x] [REST について説明できる](/quest/technologies/api/REST.md)
+- [x] [API を設計できる](/quest/technologies/api/DESIGN.md)
 
 ## Level 3
 
