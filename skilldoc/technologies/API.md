@@ -20,5 +20,5 @@ APIを理解することで、より実践的なアプリケーションが作�
 
 ## Level 3
 
-- [ ] [JWT 認証 について説明できる](/quest/technologies/api/JWT.md)
-- [ ] [JWT 認証を実装できる](/quest/technologies/api/CREATE_JWT.md)
+- [x] [JWT 認証 について説明できる](/quest/technologies/api/JWT.md)
+- [x] [JWT 認証を実装できる](/quest/technologies/api/CREATE_JWT.md)
