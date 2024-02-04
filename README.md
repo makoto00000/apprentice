@@ -85,8 +85,8 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 | 3W | 12/4(月) - 12/24(日) | [Rails/テスト](/curriculum/RAILS.md) or [Laravel/テスト](/curriculum/LARAVEL.md) |
 | 2W | 12/25(月)- 1/7(日) | [API](/curriculum/API.md) |
 | 3W | 1/8(月) - 1/28(日) | [React](/curriculum/REACT.md) |
-| 1W | 1/29(月) - 2/4(日) | チーム開発 |
-| 3W | 2/5(月) - 2/25(日) | [AWS/ネットワーク](/curriculum/AWS.md) |
+| 1W | 1/29(月) - 2/4(日) | [チーム開発](/curriculum/TEAM_DEV_2.md) |
+| 3W | 2/5(月) - 2/25(日) | [AWS/ネットワーク](/curriculum/AWS.md) 及び [Original Product のテーマ](/curriculum/ORIGINAL_PRODUCT_THEME.md) |
 
 ### DEV 3: Original Product
 
@@ -94,10 +94,10 @@ Skill Doc の内容を身につけるためにあるのが [QUEST](quest) です
 
 | 週 | 期間 | 内容 |
 | ---- | ---- | ---- |
-| 1W | 2/26(月) - 3/3(日) | 設計 |
-| 3W | 3/4(月)- 3/24(日) | コア機能 |
-| 3W | 3/25(月) - 4/14(日) | インフラ |
-| 2W | 4/15(月) - 4/28(日) | MVP/ユーザーインタビュー |
+| 1W | 2/26(月) - 3/3(日) | [要件定義](/curriculum/ORIGINAL_PRODUCT_REQUIREMENT_DEFINITION.md) 及び [設計](/curriculum/ORIGINAL_PRODUCT_DESIGN.md) |
+| 3W | 3/4(月)- 3/24(日) | [コア機能](/curriculum/ORIGINAL_PRODUCT_CORE.md) |
+| 3W | 3/25(月) - 4/14(日) | [インフラ](/curriculum/ORIGINAL_PRODUCT_INFRASTRUCTURE.md) |
+| 2W | 4/15(月) - 4/28(日) | [MVP/ユーザーインタビュー](/curriculum/ORIGINAL_PRODUCT_MVP.md) |
 
 ### DEV 4： Recruiting
 
