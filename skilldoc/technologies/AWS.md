@@ -10,7 +10,7 @@ AWS 上でウェブアプリケーションを動作できるようになるこ�
 
 ## Level 2
 
-- [ ] [AWS について説明できる](/quest/technologies/aws/AWS.md)
+- [x] [AWS について説明できる](/quest/technologies/aws/AWS.md)
 - [ ] [VPC を構築できる](/quest/technologies/aws/VPC.md)
 - [ ] [EC2 を構築できる](/quest/technologies/aws/EC2.md)
 - [ ] [RDS を構築できる](/quest/technologies/aws/RDS.md)
