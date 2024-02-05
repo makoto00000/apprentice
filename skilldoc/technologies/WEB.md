@@ -10,7 +10,7 @@ HTTP のことを知らなくても、Web アプリケーションを作るこ�
 
 ## Level 2
 
-- [ ] [HTTP について説明できる](/quest/technologies/web/HTTP.md)
+- [x] [HTTP について説明できる](/quest/technologies/web/HTTP.md)
 - [ ] [IP アドレスについて説明できる](/quest/technologies/web/IP.md)
 - [ ] [DNS について説明できる](/quest/technologies/web/DNS.md)
 - [ ] [ポート番号について説明できる](/quest/technologies/web/PORT.md)
