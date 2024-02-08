@@ -15,5 +15,5 @@ AWS 上でウェブアプリケーションを動作できるようになるこ�
 - [x] [EC2 を構築できる](/quest/technologies/aws/EC2.md)
 - [x] [RDS を構築できる](/quest/technologies/aws/RDS.md)
 - [x] [EC2 上でアプリケーションを動作できる](/quest/technologies/aws/APPLICATION_ON_EC2.md)
-- [ ] [Route53 でドメインを設定できる](/quest/technologies/aws/ROUTE53.md)
-- [ ] [ACM で SSL 化できる](/quest/technologies/aws/ACM.md)
+- [x] [Route53 でドメインを設定できる](/quest/technologies/aws/ROUTE53.md)
+- [x] [ACM で SSL 化できる](/quest/technologies/aws/ACM.md)
